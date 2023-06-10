@@ -1,0 +1,53 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: Hospital_wise_heart_specialist_search
+  - action: action_heart_wise_hospital_search
+  - intent: hospital_wise_cancer_specialist_search
+  - action: action_cancer_wise_hospital_search
+  - intent: hospital_wise_child_specialist_search
+  - action: action_child_wise_hospital_search
+
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+#- story: hospital heart specialist
+#  steps:
+
+
+
+#- story: hospital cancer specialist
+#  steps:
+# - intent: hospital_wise_cancer_specialist_search
+ #- action: action_cancer_wise_hospital_search
+
+
+#- story: hospital child specialist
+#  steps:
+#  - intent: hospital_wise_child_specialist_search
+ # - action: action_child_wise_hospital_search

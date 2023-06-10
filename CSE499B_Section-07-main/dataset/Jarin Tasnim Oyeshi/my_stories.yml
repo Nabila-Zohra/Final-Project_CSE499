@@ -1,0 +1,46 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: get_introduction
+  - action: utter_introduction
+  - intent: hospital_search_by_area
+  - action: action_hospital_search_by_area
+  - intent: hospital_search_by_disease
+  - action: action_hospital_search_by_disease
+  - intent: Hospital_address
+  - action: action_Hospital_address
+  - intent: doctors_search_by_name
+  - action: action_doctors_search_by_name
+  - intent: doctors_search_by_cardiac
+  - action: action_doctors_search_by_cardiac
+  - intent: doctors_search_by_child
+  - action: action_doctors_search_by_child
+  - intent: doctors_search_by_cancer
+  - action: action_doctors_search_by_cancer
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

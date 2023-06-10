@@ -1,0 +1,1160 @@
+{"tag": "Hospital_Name_of_Muhammadpur",
+  "patterns": ["Hospitals near Mohammadpur?", "What are the hospitals near Mohammadpur?", "Mohammadpur Hospitals", "best hospitals Mohammadpur"],
+  "responses": ["Some Hospitals in Mohammadpur are-Al-Manar Hospital,City Hospital & Diagnostic Center,Dhaka Central International Medical College,Bangladesh Specialized Hospital"],
+  "context_set": ""
+},
+
+{
+  "tag": "Hospital_Name_of_Dhanmondi",
+  "patterns": ["Hospitals near Dhanmondi?", "What are the hospitals near Dhanmondi?", "Dhanmondi Hospitals", "best hospitals Dhanmondi"],
+  "responses": ["Some Hospitals in Dhanmondi are-Labaid Hospital Dhanmondi,Square Hospital, Dhaka,Ibn Sina Hospital Dhanmondi,Medinova Hospital Dhanmondi"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Hospital_Name_of_Banani",
+  "patterns": ["Hospitals near Banani?","What are the hospitals near Banani?","Banani Hospitals","best hospitals Banani","Hospitals near Gulshan?","What are the hospitals near Gulshan?","Gulshan Hospitals","best hospitals Gulshan"],
+  "responses": ["Some Hospitals in Banani is United Hospital Dhaka"],
+  "context_set": ""
+},
+
+{
+  "tag": "Hospital_Name_of_Gulshan",
+  "patterns": ["Hospitals near Banani?","What are the hospitals near Banani?","Banani Hospitals","best hospitals Banani","Hospitals near Gulshan?","What are the hospitals near Gulshan?","Gulshan Hospitals","best hospitals Gulshan"],
+  "responses": ["Some Hospitals in Gulshan is United Hospital Dhaka"],
+  "context_set": ""
+},
+
+{
+  "tag": "Hospital_Name_of_Banani_and_Gulshan",
+  "patterns": ["Hospitals near Banani?","What are the hospitals near Banani?","Banani Hospitals","best hospitals Banani","Hospitals near Gulshan?","What are the hospitals near Gulshan?","Gulshan Hospitals","best hospitals Gulshan"],
+  "responses": ["Some Hospitals in Banani and Gulshan is United Hospital Dhaka"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Al-Manar_hospital_address",
+  "patterns": ["Address of Al-Manar Hospital", "Al-Manar Hospital","I need the address of Al-Manar Hospital", "what is the address of Al-Manar Hospital", "Where is Al-Manar Hospital"],
+  "responses": ["Here is the address-Plot No: Umo, Block No: Rossoi,Satmosjid Road, Mohammadpur,Dhaka-1207 ,Mobile: 015500-20871,015500-20885 ,E-mail:almanarhospital1996@gmail.com"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "City_Hospital_&_Diagnostic_Center_hospital_address",
+  "patterns": ["Address of City Hospital & Diagnostic Center”,” City Hospital & Diagnostic Center”,” I need the address of City Hospital & Diagnostic Center”, “what is the address of City Hospital & Diagnostic Center”, “Where is City Hospital & Diagnostic Center”, “City hospital"],
+  "responses": ["Here is the address-1/8, Block-E, Lalmatia, Satmosjid Road, Mohammadpur, Dhaka - 1207, Phone: 8143312, 8143437, 8143166, 8143167, 9124436, Mobile (Hotline), +88 01558220134,  +88 01815 484600, Email: cityhosp.bd@gmail.com & info@cityhospitalbd.com"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Dhaka_Central_Medical_College_hospital_address",
+  "patterns": ["Address of Dhaka Central Medical College”,” Dhaka Central International Medical College”,” I need the address of Dhaka Central Medical College”, “what is the address of Dhaka Central International Medical College”, “Where is Dhaka Central International Medical College”, “Dhaka Central International Medical College”, “Dhaka Central Medical College”"],
+  "responses": ["Here is the address-2/1 Ring Road, Shyamoli, Dhaka - 1207, Bangladesh, Phone: Phone: +88 02 48117801, +88 02 48118638, +88 02 48117802, +88 02 48118639 , +88 02 48122739, +88 02 48122740, Mobile: +880 1755 597 798, +880 1755 630 167
+Email: director@dcimch.com"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Bangladesh_Specialized_hospital_address",
+  "patterns": ["Address of Bangladesh Specialized Hospital”, “Bangladesh Specialized Hospital”, “I need the address of Bangladesh Specialized Hospital”, “what is the address of Bangladesh Specialized Hospital”, “Where is Bangladesh Specialized Hospital"],
+  "responses": ["Here is the address- 21 Shyamoli, Mirpur Road, Dhaka-1207, Bangladesh, Mail : info@bshl.com.bd , bshl.dhaka@gmail.com, Phone: 10633, +8809666700100"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Labaid_hospital_address",
+  "patterns": ["Address of Labaid Hospital”, Labaid Hospital”,” I need the address of Labaid Hospital”, “what is the address of Labaid Hospital”, “Where is Labaid Hospital” : “Address of Labaid”, Labaid”,” I need the address of Labaid”, “what is the address of Labaid”, “Where is Labaid"],
+  "responses": ["Here is the address- House # 6, Road # 4, Dhanmondi, Dhaka, Contact: 10606, +8801713333337"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Square_hospital_address",
+  "patterns": ["Address of Square Hospital”, Square Hospital”,” I need the address of Square Hospital”, “what is the address of Square Hospital”, “Where is Square Hospital"],
+  "responses": ["Here is the address-Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka, Contact: 10616, +8801713141447"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Ibn Sina_hospital_address",
+  "patterns": ["Address of Ibn Sina Hospital”, Ibn Sina Hospital”,” I need the address of Ibn Sina Hospital”, “what is the address of Ibn Sina Hospital”, “Where is Ibn Sina Hospital” , Address of Ibn Sina”, Ibn Sina”,” I need the address of Ibn Sina”, “what is the address of Ibn Sina”, “Where is Ibn Sina"],
+  "responses": ["Here is the address-Address: House # 68, Road # 15/A, Dhanmondi, Dhaka, Contact: +8801823039800, +880255029101"],
+  "context_set": ""
+},
+
+
+{
+c
+
+
+{
+  "tag": "United_hospital_address",
+  "patterns": ["Address of United Hospital”, United Hospital”,” I need the address of United Hospital”, “what is the address of United Hospital”, “Where is United Hospital"],
+  "responses": ["Here is the address-Address: Plot # 15, Road # 71, Gulshan, Dhaka, Contact: 10666, +88029852466"],
+  "context_set": ""
+},
+
+
+{
+"tag": "Medinova_hospital_address",
+"patterns": ["Address of Medinova Hospital”, Medinova Hospital”,” I need the address of Medinova Hospital”, “what is the address of Medinova Hospital”, “Where is Medinova Hospital” , Address of Medinova”, “Medinova”,” I need the address of Medinova”, “what is the address of Medinova”, “Where is Medinova"],
+"responses": ["Here is the address-Address: House # 71/A, Road # 5/A, Dhanmondi R/A, Dhaka, Contact: +8801796222222, +8801750557722"],
+"context_set": ""
+},
+
+
+{
+  "tag": "Heart_Specialist_in_Al-Manar_hospital",
+  "patterns": ["Is there any cardiac specialist in Al-Manar Hospital” , “will you a suggest me Heart specialist in Al-Manar Hospital?”,” Heart doctor in Al-Manar Hospital”,” good Heart doctor in Al-Manar Hospital”,” Give me a name of Heart doctor in Al-Manar Hospital”, “Cardiac Specialist in Al-Manar Hospital” , “will you a suggest me cardiac specialist in Al-Manar Hospital?” “Give me a name of Cardiac doctor in Al-Manar Hospital”, “good cardiac doctor in Al-Manar Hospital”, “cardiac doctor in Al-Manar Hospital"],
+  "responses": ["Here are some of the cardiac specialist in Al-Manar Hospital. You can check out from here-
+Dr. Mohammad Zakir Hossain,
+Prof. Dr. Nurul Alam Talukder"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Mohammad Zakir Hossain”, “what is the address of Dr. Mohammad Zakir Hossain”, “give me information Dr. Mohammad Zakir Hossain”, “provide me the information of  Dr. Mohammad Zakir Hossain”, “ Dr. Mohammad Zakir Hossain”, “Zakir Hossain”, “Md. Zakir Hossain”, “Dr. Zakir"],
+  "responses": ["Here are the information of the doctor
+MBBS, FCPS (Medicine), MD (Cardiology)
+Medicine & Cardiology Specialist
+Consulting Hour: 7:00 PM to 9:00 PM
+(Friday Closed) "],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Prof. Dr. Nurul Alam Talukder”, “Prof. Dr. Nurul Alam Talukder”, “provide me the information of  Prof. Dr. Nurul Alam Talukder”, “ Prof. Dr. Nurul Alam Talukder”, “Nurul Alam”, “Nurul Alam Talukder”, “Dr. Nurul Alam "],
+  "responses": ["Here are the information of the doctor
+MBBS (DMC), MCPS (Medicine), D. Card
+Cardiologist & medicine Specialist
+Head of Dept. of Cardiology
+Northern International Medical college Hospital
+dhanmondi, Dhaka.
+Consulting Hour: 6:00 PM to 8:30 PM
+(Friday & Govt. Holiday Closed)"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Cancer_Specialist_in_Al-Manar_hospital",
+  "patterns": ["Is there any cancer specialist in Al-Manar Hospital” , “will you a suggest me cancer specialist in Al-Manar Hospital?”,” cancer doctor in Al-Manar Hospital”,” good cancer doctor in Al-Manar Hospital”,” Give me a name of cancer doctor in Al-Manar Hospital”, “cancer Specialist in Al-Manar Hospital”, “Is there any oncologist in Al-Manar Hospital” , “will you a suggest me an oncologist in Al-Manar Hospital?”,” oncologist in Al-Manar Hospital”,” good oncologist in Al-Manar Hospital”,” Give me a name of an oncologist in Al-Manar Hospital”, “oncologist in Al-Manar Hospital"],
+  "responses": ["Currently there are no oncologists in Al-Manar Hospital."],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Child_Specialist_in_Al-Manar_hospital",
+  "patterns": ["Is there any child specialist in Al-Manar Hospital” , “will you a suggest me child specialist in Al-Manar Hospital?”,” child doctor in Al-Manar Hospital”,” good child doctor in Al-Manar Hospital”,” Give me a name of child doctor in Al-Manar Hospital”, will you a suggest me child doctor in Al-Manar Hospital?”,” child doctor in Al-Manar Hospital” “child specialist in Al-Manar Hospital” , “Give me a name of child specialist in Al-Manar Hospital”, “good child specialist in Al-Manar Hospital”, “child specialist in Al-Manar Hospital”, “Is there any paediatrician in Al-Manar Hospital” , “will you a suggest me paediatrician in Al-Manar Hospital?”,” paediatrician in Al-Manar Hospital”,” good paediatrician in Al-Manar Hospital”,” Give me a name of a paediatrician in Al-Manar Hospital”, “paediatrician in Al-Manar Hospital"],
+  "responses": ["Here are some of the child specialists in Al-Manar Hospital. You can check out from here-
+PROF. Dr. M.A.K. AZAD CHOWDHURY
+Prof. Chowdhury Md. Haider Ali
+Dr. Sultan Ahmed
+Dr. Mohammad Abdul Hai
+Dr. Kazi Md. Noor-Ul Ferdous"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  PROF. Dr. M.A.K. Azad Chowdhury”, “what is the address of Dr. M.A.K. Azad Chowdhury”, “give me information Dr. M.A.K. Azad Chowdhury”, “provide me the information of  Dr. M.A.K. Azad Chowdhury”, “ Dr. Dr. M.A.K. Azad Chowdhury”, “Azad Chowdhury”, “Dr. Azad”, “Dr. Azad Chowdhury"],
+  "responses": ["Here are the information of the doctor
+MBBS, DCH, MRCP (UK), MRCP (IRE), FRCP (EDIN), FCPS
+Prof. & Head, Deptt. of neonatology
+Dhaka Shishu Hospital
+Sher-e-Bangla nagor, Dhaka
+Secretrary general
+Bangladesh Paediatric Association
+Consulting Hour: 5:00 PM to 9:00 PM
+(Friday Closed)"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Prof. Chowdhury Md. Haider Ali”, “what is the address of Prof. Chowdhury Md. Haider Ali”, “give me information Prof. Chowdhury Md. Haider Ali”, “provide me the information of  Prof. Chowdhury Md. Haider Ali”, “ Prof. Chowdhury Md. Haider Ali”, “Md. Haider Ali”, “Dr. Azad”, “Dr. Haider Ali"],
+  "responses": [" Here are the information of the doctor
+MBBS, (DMC), DCH (Dublin), DCH, RCP & S (Irland)
+MD (Paed-Bangladesh Institute of Child Health)
+E-mail: Drcmhaider@yahoo.com
+Mobile: 01683317564
+Consulting Hour: 10:00 PM to 12:00 PM (Friday Closed) "],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Sultan Ahmed”, “what is the address of  Dr. Sultan Ahmed”, “give me information Dr. Sultan Ahmed”, “provide me the information of  Dr. Sultan Ahmed”, “ Dr. Sultan Ahmed”, “Sultan Ahmed"],
+  "responses": ["Here are the information of the doctor
+MBBS, DCH (Ireland), Child Specialist
+Director & Ex-Chairman
+Consultant, paediatrics
+Cell: 01713039255"],
+  "context_set": ""
+},
+
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Mohammad Abdul Hai”, “what is the address of  Dr. Mohammad Abdul Hai”, “give me information Dr. Mohammad Abdul Hai”, “provide me the information of  Dr. Mohammad Abdul Hai”, “ Dr. Mohammad Abdul Hai”, “Abdul Hai”, “Md. Abdul Hai”, “Dr. Md. Abdul Hai"],
+  "responses": ["Here are the information of the doctor
+MBBS, DCH (DU), FRSH (UK)
+Ass. Prof. (Child Health)
+Ex-Registrar , Dhaka Shishu Hospital
+Mobile: 01713060034
+Consulting Hour:
+Everyday: 11:00AM To 1:30 PM
+Every Friday: 5:00AM To 9:00 PM"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Kazi Md. Noor-Ul Ferdous”, “what is the address of  Dr. Kazi Md. Noor-Ul Ferdous”, “give me information Dr. Kazi Md. Noor-Ul Ferdous”, “provide me the information of  Dr. Kazi Md. Noor-Ul Ferdous”, “ Dr. Kazi Md. Noor-Ul Ferdous”, “Noor-Ul Ferdous”, “Md. Noor-Ul Ferdous”, “Kazi Md. Noor-Ul Ferdous”, “ Dr. Noor-Ul Ferdous"],
+  "responses": ["Here are the information of the doctor
+MBBS, MS (Pediatric Surgery)
+Assistant Professor
+Neonatal & Pediatric Surgery Department
+Dhaka Shishu Hospital, Sher-e-Bangla Nagar, Dhaka
+Clinical Fellow in pediatric Laparoscopy
+Queen Mary Hospital, Hong Kong
+Cell: 01711322487
+Consulting Hour: 6:30 PM to 8:30 PM
+(Friday Closed)
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_City_hospital",
+  "patterns": ["Is there any cardiac specialist in City Hospital & Diagnostic Center” , “will you a suggest me Heart specialist in City Hospital & Diagnostic Center?”,” Heart doctor in City Hospital & Diagnostic Center”,” good Heart doctor in City Hospital & Diagnostic Center”,” Give me a name of Heart doctor in City Hospital & Diagnostic Center”, “Cardiac Specialist in City Hospital & Diagnostic Center” , “will you a suggest me cardiac specialist in City Hospital & Diagnostic Center?” “Give me a name of Cardiac doctor in City Hospital & Diagnostic Center”, “good cardiac doctor in City Hospital & Diagnostic Center”, “cardiac doctor in City Hospital & Diagnostic Center”
+“Is there any cardiac specialist in City Hospital” , “will you a suggest me Heart specialist in City Hospital?”,” Heart doctor in City Hospital”,” good Heart doctor in City Hospital”,” Give me a name of Heart doctor in City Hospital”, “Cardiac Specialist in City Hospital” , “will you a suggest me cardiac specialist in City Hospital?” “Give me a name of Cardiac doctor in City Hospital”, “good cardiac doctor in City Hospital”, “cardiac doctor in City Hospita"],
+  "responses": ["Here are some of the cardiac specialist in City Hospital & Diagnostic Center. You can check out from here-
+Prof. Dr. KMHS Sirajul Haque
+Prof. Dr. Azizul Bari
+Dr. Md. Arif Hossain"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Sirajul Haque”, “what is the address of  Dr. Sirajul Haque”, “give me information Dr. Sirajul Haque”, “provide me the information of  Dr. Sirajul Haque”, “ Prof. Dr. KMHS Sirajul Haque”, “Prof. Dr. KMHS Sirajul Haque”, “ Dr. Sirajul Haque"],
+  "responses": ["Here are the information of the doctor
+BSMMU, Shahbagh, Dhaka.
+Ex-Professor, NICVD, Dhaka.
+Ex-Director, NCCRF/HD, Dhaka.
+Anwar Khan Modern Medical College, Dhaka
+Chamber phone: 01746711581 (A. Mojid) "],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Azizul Bari”, “what is the address of  Dr. Azizul Bari”, “give me information Dr. Azizul Bari”, “provide me the information of   Dr. Azizul Bari”, “ Dr. Azizul Bari”, “Prof. Dr. Azizul Bari”,  “ Dr. Azizul Bari"],
+  "responses": ["Here are the information of the doctor
+MBBS, FCPS (Medicine), D-Card, Training Cardiology, Madras, India.
+Degree MBBS, FCPS (Medicine), D-Card, Training Cardiology, Madras, India.
+Visit Time 6.00 PM to 8.00 PM Saturday to Wednesday"],
+  "context_set": ""
+},
+
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Md. Arif Hossain”, “what is the address of  Dr. Md. Arif Hossain”, “give me information Dr. Md. Arif Hossain”, “provide me the information of  Dr. Md. Arif Hossain”, “ Dr. Md. Arif Hossain”, “Md. Arif Hossain”, “ Md. Arif Hossain"],
+  "responses": ["Here are the information of the doctor
+BCS (Health), MD (Cardiology-BSMMU) Clinical and Interventional Cardiologist & Medicine Specialist Consultant
+Degree MBBS, MD (Cardiology)
+Visit Time and Fee
+Visit Time 5.00 pm to 9.00pm Monday & Thursday "],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Cancer_Specialist_in_City_hospital",
+  "patterns": ["Is there any cancer specialist in City Hospital & Diagnostic Center” , “will you a suggest me cancer specialist in City Hospital?”,” cancer doctor in City Hospital”,” good cancer doctor City Hospital”,” Give me a name of cancer doctor in City Hospital”, “cancer Specialist in City Hospital”, “Is there any oncologist in City Hospital” , “will you a suggest me an oncologist in City Hospital?”,” oncologist in City Hospital”,” good oncologist in City Hospital”,” Give me a name of an oncologist in City Hospital”, “oncologist in City Hospital"],
+  "responses": ["Here are some of the cancer specialist in City Hospital & Diagnostic Center. You can check out from here-
+Prof. Dr. Md. Ehteshamul Hoque"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Prof. Dr. Md. Ehteshamul Hoque”, “what is the address of  Dr. Md. Ehteshamul Hoque”, “give me information Dr. Md. Ehteshamul Hoque”, “provide me the information of  Dr. Md. Ehteshamul Hoque”, “ Dr. Md. Ehteshamul Hoque”, “Prof. Dr. Azizul Bari”,  “ Md. Ehteshamul Hoque"],
+  "responses": ["Here are the information of the doctor
+Cancer Specialist (Radiotherapy),
+Clinical Oncologist
+Professor, Anwer Khan Modern Medical College & Hospital &
+Consultant, City Hospital  Ltd.
+phone: 01711673550
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Child_Specialist_in_City_hospital",
+  "patterns": ["Is there any child specialist in City Hospital” , “will you a suggest me child specialist in City Hospital?”,” child doctor in City Hospital”,” good child doctor in City Hospital”,” Give me a name of child doctor in City Hospital”, will you a suggest me child doctor in City Hospital?”,” child doctor in City Hospital” “child specialist in City Hospital” , “Give me a name of child specialist in City Hospital”, “good child specialist in City Hospital”, “child specialist in City Hospital”, “Is there any paediatrician in City Hospital” , “will you a suggest me paediatrician in City Hospital?”,” paediatrician in City Hospital”,” good paediatrician in City Hospital”,” Give me a name of a paediatrician in City Hospital”, “paediatrician in City Hospital"],
+  "responses": ["Currently there are no paediatrician in City Hospital"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_Dhaka_Central_Medical_College_hospital",
+  "patterns": ["Is there any cardiac specialist in Dhaka Central Medical College” , “will you a suggest me Heart specialist in Dhaka Central Medical College?”,” Heart doctor in Dhaka Central Medical College”,” good Heart doctor in Dhaka Central Medical College”,” Give me a name of Heart doctor in Dhaka Central Medical College”, “Cardiac Specialist in Dhaka Central Medical College” , “will you a suggest me cardiac specialist in Dhaka Central Medical College?” “Give me a name of Cardiac doctor in Dhaka Central Medical College”, “good cardiac doctor in Dhaka Central Medical College”, “cardiac doctor in Dhaka Central Medical College"],
+  "responses": ["Currently there are no Cardiac Specialist in Dhaka Central International Medical College"],
+  "context_set": ""
+},
+
+{
+  "tag": "Cancer_Specialist_in_Dhaka_Central_Medical_College_hospital",
+  "patterns": ["Is there any cancer specialist in Dhaka Central Medical College” , “will you a suggest me cancer specialist in Dhaka Central Medical College?”,” cancer doctor in Dhaka Central Medical College”,” good cancer doctor Dhaka Central Medical College”,” Give me a name of cancer doctor in Dhaka Central Medical College”, “cancer Specialist in Dhaka Central Medical College”, “Is there any oncologist in Dhaka Central Medical College” , “will you a suggest me an oncologist in Dhaka Central Medical College?”,” oncologist in Dhaka Central Medical College”,” good oncologist in Dhaka Central Medical College”,” Give me a name of an oncologist in Dhaka Central Medical College”, “oncologist in Dhaka Central Medical College"],
+  "responses": ["Here are some of the cancer specialist in Dhaka Central Medical College. You can check out from here-
+Dr. M Safiul Alam"],
+  "context_set": ""
+},
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. M Safiul Alam”, “what is the address of  Dr. M Safiul Alam”, “give me information Dr. M Safiul Alam”, “provide me the information of  Dr. M Safiul Alam”, “ Dr. M Safiul Alam”,  “ M Safiul Alam"],
+  "responses": ["Here are the information of the doctor
+Consulting Address: Dhaka Central Diagnostic & Imaging Center
+Address: 38/1, Ring Road, Shyamoli, Dhaka-1207
+Phone: 02 58157532-4
+Mobile: 01622446661-2
+Consulting Sessions: 6:00 PM to 9:00 PM
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Child_Specialist_in_Dhaka_Central_Medical_College_hospital",
+  "patterns": ["Is there any child specialist in Dhaka Central Medical College” , “will you a suggest me child specialist in Dhaka Central Medical College?”,” child doctor in Dhaka Central Medical College”,” good child doctor in Dhaka Central Medical College”,” Give me a name of child doctor in Dhaka Central Medical College”, will you a suggest me child doctor in Dhaka Central Medical College?”,” child doctor in Dhaka Central Medical College” “child specialist in Dhaka Central Medical College” , “Give me a name of child specialist in Dhaka Central Medical College”, “good child specialist in Dhaka Central Medical College”, “child specialist in Dhaka Central Medical College”, “Is there any paediatrician in Dhaka Central Medical College” , “will you a suggest me paediatrician in Dhaka Central Medical College?”,” paediatrician in Dhaka Central Medical College”,” good paediatrician in Dhaka Central Medical College”,” Give me a name of a paediatrician Dhaka Central Medical College”, “paediatrician in Dhaka Central Medical College"],
+  "responses": ["Here are some of the child specialist in Dhaka Central Medical College. You can check out from here-
+Dr. Mahbubul Alam"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Mahbubul Alam”, “what is the address of  Dr. Mahbubul Alam”, “give me information Dr. Mahbubul Alam”, “provide me the information of  Dr. Mahbubul Alam”, “ Dr. Mahbubul Alam”,  “ Mahbubul Alam"],
+  "responses": ["Here are the information of the doctor
+Consulting Address:
+Dhaka Central Consultation & Diagnostic Center
+4/ka, Ring Road, Shyamoli, Dhaka-1207
+Room No: 605
+Phone: 02 9145808-9
+Mob: 01746344179
+Consulting Sessions: 7:30 PM to 9:00 PM
+"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Heart_Specialist_in_Bangladesh_Specialized_hospital",
+  "patterns": ["Is there any cardiac specialist in Bangladesh Specialized Hospital” , “will you a suggest me Heart specialist in Bangladesh Specialized Hospital?”,” Heart doctor in Bangladesh Specialized Hospital”,” good Heart doctor in Bangladesh Specialized Hospital”,” Give me a name of Heart doctor in Bangladesh Specialized Hospital”, “Cardiac Specialist in Bangladesh Specialized Hospital” , “will you a suggest me cardiac specialist in Bangladesh Specialized Hospital?” “Give me a name of Cardiac doctor in Bangladesh Specialized Hospital”, “good cardiac doctor in Bangladesh Specialized Hospital”, “cardiac doctor in Bangladesh Specialized Hospital"],
+  "responses": ["Here are some of the cardiac specialist in Bangladesh Specialized Hospital. You can check out from here-
+Dr. Khalifa Mahmud Tarik
+Dr. Md. Shaukat Ali"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Khalifa Mahmud Tarik”, “what is the address of  Dr. Khalifa Mahmud Tarik”, “give me information Dr. Khalifa Mahmud Tarik”, “provide me the information of  Dr. Khalifa Mahmud Tarik”, “ Dr. Khalifa Mahmud Tarik”,  “Khalifa Mahmud Tarik"],
+  "responses": ["Here are the information of the doctor- MBBS (Dhaka) , MS (CTS)
+Consultant, Cardiac Surgery
+CABG and Congenital cardiac surgery both in adult and child.
+Phone: 10633, +8809666700100"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Md. Shaukat Ali”, “what is the address of  Dr. Md. Shaukat Ali”, “give me information Dr. Md. Shaukat Ali”, “provide me the information of  Dr. Md. Shaukat Ali”, “ Dr. Md. Shaukat Ali”,  “ Md. Shaukat Ali"],
+  "responses": ["Here are the information of the doctor- MBBS FCPS (Surgery)
+MS (Cardiovascular & Thoracic Surgery)
+Clinical Fellow (NUH, Singapore).
+Phone: 10633, +8809666700100 "],
+  "context_set": ""
+},
+
+{
+  "tag": "Cancer_Specialist_in_Bangladesh_Specialized_hospital",
+  "patterns": ["Is there any cancer specialist in Bangladesh Specialized Hospital” , “will you a suggest me cancer specialist in Bangladesh Specialized Hospital?”,” cancer doctor in Bangladesh Specialized Hospital”,” good cancer doctor Bangladesh Specialized Hospital”,” Give me a name of cancer doctor in Bangladesh Specialized Hospital”, “cancer Specialist in Bangladesh Specialized Hospital”, “Is there any oncologist in Bangladesh Specialized Hospital” , “will you a suggest me an oncologist in Bangladesh Specialized Hospital?”,” oncologist in Bangladesh Specialized Hospital”,” good oncologist in Bangladesh Specialized Hospital”,” Give me a name of an oncologist in Bangladesh Specialized Hospital”, “oncologist in Bangladesh Specialized Hospital"],
+  "responses": ["Here are some of the cancer specialist in Bangladesh Specialized Hospital. You can check out from here-
+Prof. Dr. Qamruzzaman Chowdhury
+Dr. Ferdous Ara Begum
+Dr. Md. Arifur Rahman"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Qamruzzaman Chowdhury”, “what is the address of  Dr. Qamruzzaman Chowdhury”, “give me information Dr. Qamruzzaman Chowdhury”, “provide me the information of  Dr. Qamruzzaman Chowdhury”, “ Dr. Qamruzzaman Chowdhury”,  “Qamruzzaman Chowdhury"],
+  "responses": ["Here are the information of the doctor- Specialization
+Chemotherapy, Immunotherapy
+Palliative Care
+Radiation Therapy (IMRT, 3DCRT)
+Brachytherapy
+Phone: 10633, +8809666700100
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Ferdous Ara Begum”, “what is the address of  Dr. Ferdous Ara Begum”, “give me information Dr. Ferdous Ara Begum”, “provide me the information of  Dr. Ferdous Ara Begum”, “ Dr. Ferdous Ara Begum”,  “Ferdous Ara Begum"],
+  "responses": ["Here are the information of the doctor- MBBS, DCH (Diploma In Child Health) (BICH), MD (Medical Oncology)
+     Phone: 10633, +8809666700100"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Md. Arifur Rahman”, “what is the address of  Dr. Md. Arifur Rahman”, “give me information Dr. Md. Arifur Rahman”, “provide me the information of  Dr. Md. Arifur Rahman”, “ Dr. Md. Arifur Rahman”,  “Md. Arifur Rahman"],
+    "responses": ["“ Here are the information of the doctor- MBBS, FCPS (Radiotherapy)
+Associate Consultant, Oncology & Radiotherapy
+Phone: 10633, +8809666700100 "],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Child_Specialist_in_Bangladesh_Specialized_hospital",
+  "patterns": ["Is there any child specialist in Bangladesh Specialized Hospital” , “will you a suggest me child specialist in Bangladesh Specialized Hospital?”,” child doctor in Bangladesh Specialized Hospital”,” good child doctor in Bangladesh Specialized Hospital”,” Give me a name of child doctor in Bangladesh Specialized Hospital”, will you a suggest me child doctor in Bangladesh Specialized Hospital?”,” child doctor in Bangladesh Specialized Hospital” ,“child specialist in Bangladesh Specialized Hospital” , “Give me a name of child specialist in Bangladesh Specialized Hospital”, “good child specialist in Bangladesh Specialized Hospital”, “child specialist in Bangladesh Specialized Hospital”, “Is there any paediatrician in Bangladesh Specialized Hospital” , “will you a suggest me paediatrician in Bangladesh Specialized Hospital?”,” paediatrician in Bangladesh Specialized Hospital”,” good paediatrician in Bangladesh Specialized Hospital”,” Give me a name of a paediatrician Bangladesh Specialized Hospital”, “paediatrician in Bangladesh Specialized Hospital"],
+  "responses": ["Here are some of the child specialist in Bangladesh Specialized Hospital. You can check out from here-
+Dr. Ahmed Zahid Hossain
+Prof. Dr. Abdul Hanif (Tablu)"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Ahmed Zahid Hossain”, “what is the address of  Dr. Ahmed Zahid Hossain”, “give me information Dr. Ahmed Zahid Hossain”, “provide me the information of  Dr. Ahmed Zahid Hossain”, “ Dr. Ahmed Zahid Hossain”,  “Ahmed Zahid Hossain"],
+    "responses": ["Here are the information of the doctor- MBBS (Dhaka), MPH (Epidemiology), MS (Pediatric Surgery), Phone: 10633, +8809666700100"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Prof. Dr. Abdul Hanif”, “what is the address of  Prof. Dr. Abdul Hanif”, “give me information Prof. Dr. Abdul Hanif”, “provide me the information of  Prof. Dr. Abdul Hanif”, “ Prof. Dr. Abdul Hanif”,  “Prof. Dr. Abdul Hanif"],
+  "responses": ["Here are the information of the doctorMBBS (DMC), MS (Pediatric Surgery), MMEd (DU), Phone: 10633, +8809666700100"],
+  "context_set": ""
+},
+
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_Labaid_hospital",
+  "patterns": ["Is there any cardiac specialist in Labaid Hospital” , “will you a suggest me Heart specialist in Labaid Hospital?”,” Heart doctor in Labaid Hospital”,” good Heart doctor in Labaid Hospital”,” Give me a name of Heart doctor in Labaid Hospital”, “Cardiac Specialist in Labaid Hospital” , “will you a suggest me cardiac specialist in Labaid Hospital?” “Give me a name of Cardiac doctor in Labaid Hospital”, “good cardiac doctor Labaid Hospital”, “cardiac doctor in Labaid Hospital"],
+  "responses": ["Here are some of the cardiac specialists in Labaid Hospital. You can check out from here-
+Dr. Md. Lokman Hossain
+Dr. Amirul Islam Bhuyan
+Dr. Nurun Nahar Fatema Begum
+Dr. Akhter Hamid Parvez
+Dr. Arun Kumar Sharma"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Md. Lokman Hossain”, “what is the address of  Dr. Md. Lokman Hossain”, “give me information Dr. Md. Lokman Hossain”, “provide me the information of  Dr. Md. Lokman Hossain”, “ Dr. Md. Lokman Hossain”,  “Md. Lokman Hossain"],
+  "responses": ["Here are the information of the doctor-
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: 9am to 12pm & 5pm to 8pm(Closed: Friday)
+Contact Number: 10606"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Amirul Islam Bhuyan”, “what is the address of  Dr. Amirul Islam Bhuyan”, “give me information Dr. Amirul Islam Bhuyan”, “provide me the information of  Dr. Amirul Islam Bhuyan”, “ Dr. Amirul Islam Bhuyan”,  “ Amirul Islam Bhuyan"],
+  "responses": ["Here are the information of the doctor-
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Nurun Nahar Fatema Begum”, “what is the address of  Dr. Amirul Islam Bhuyan”, “give me information Dr. Nurun Nahar Fatema Begum”, “provide me the information of  Dr. Nurun Nahar Fatema Begum”, “ Dr. Nurun Nahar”,  “Dr. Nurun Nahar Fatema Begum” , “Dr. Fatema Begum”, “Nurun Nahar Fatema Begum"],
+  "responses": ["Here are the information of the doctor-
+Pediatrics Cardiologist
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: 4pm to 6.30pm (Closed: Friday)
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Akhter Hamid Parvez”, “what is the address of  Dr. Akhter Hamid Parvez”, “give me information Dr. Akhter Hamid Parvez”, “provide me the information of  Dr. Akhter Hamid Parvez”, “ Dr. Akhter Hamid Parvez”,  “Akhter Hamid Parvez"],
+  "responses": ["Here are the information of the doctor-
+Cardiovascular & Thoracic Surgeon
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: Unknown. Please call to know visiting hour
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Arun Kumar Sharma”, “what is the address of  Dr. Arun Kumar Sharma”, “give me information Dr. Arun Kumar Sharma”, “provide me the information of Dr. Arun Kumar Sharma”, “Arun Kumar Sharma”, “ Dr. Arun Kumar Sharma"],
+  "responses": ["Here are the information of the doctor-
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: 9am to 1pm & 5pm to 10pm (Closed: Friday)
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Cancer_Specialist_in_Labaid_hospital",
+  "patterns": ["Is there any cancer specialist in Labaid Hospital” , “will you a suggest me cancer specialist in Labaid Hospital?”,” cancer doctor in Labaid Hospital”,” good cancer doctor Labaid Hospital”,” Give me a name of cancer doctor in Labaid Hospital”, “cancer Specialist in Labaid Hospital”, “Is there any oncologist in Labaid Hospital” , “will you a suggest me an oncologist in Labaid Hospital?”,” oncologist in Labaid Hospital”,” good oncologist in Labaid Hospital”,” Give me a name of an oncologist in Labaid Hospital”, “oncologist in Labaid Hospital"],
+  "responses": ["Here are some of the cancer specialist in Labaid Hospital. You can check out from here-
+Dr. A.F.M. Kamal Uddin
+Prof. Dr. Qazi Mushtaq Hussain"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. A.F.M. Kamal Uddin”, “what is the address of  Dr. A.F.M. Kamal Uddin”, “give me information Dr. A.F.M. Kamal Uddin”, “provide me the information of  Dr. A.F.M. Kamal Uddin”, “ Kamal Uddin”,  “A.F.M. Kamal Uddin"],
+  "responses": ["Here are the information of the doctor-
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: 6pm to 10pm (Closed: Friday)
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Qazi Mushtaq Hussain”, “what is the address of  Dr. Qazi Mushtaq Hussain”, “give me information of Dr. Qazi Mushtaq Hussain”, “provide me the information of  Dr. Qazi Mushtaq Hussain”, “ Dr. Qazi Mushtaq Hussain”,  “Qazi Mushtaq Hussain"],
+  "responses": ["Here are the information of the doctor-
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: 6pm to 9pm (Closed: Thursday & Friday)
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Child_Specialist_in_Labaid_hospital",
+  "patterns": ["Is there any child specialist in Labaid Hospital” , “will you a suggest me child specialist in Labaid Hospital?”,” child doctor in Labaid Hospital”,” good child doctor in Labaid Hospital”,” Give me a name of child doctor in Labaid Hospital”, will you a suggest me child doctor in Labaid Hospital?”,” child doctor in Labaid Hospital” ,“child specialist in Labaid Hospital” , “Give me a name of child specialist in Labaid Hospital”, “good child specialist in Labaid Hospital”, “child specialist in Labaid Hospital”, “Is there any paediatrician in Labaid Hospital” , “will you a suggest me paediatrician in Labaid Hospital?”,” paediatrician in Labaid Hospital”,” good paediatrician in Labaid Hospital”,” Give me a name of a paediatrician Labaid Hospital”, “paediatrician in Labaid Hospital"],
+  "responses": ["Here are some of the child specialist in Labaid Hospital. You can check out from here-
+Dr. Amina Akter
+Dr. Musrat Rahman Deeba
+Dr. Mahmuda Zaman"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Amina Akter”, “what is the address of  Dr. Amina Akter”, “give me information of Dr. Amina Akter”, “provide me the information of  Dr. Amina Akter”, “ Amina Akter”,  “Dr. Amina Akter"],
+  "responses": ["Here are the information of the doctor-
+Child Kidney Specialist
+Address: House # 6, Road # 4, Dhanmondi, Dhaka
+Visiting Hour: 9am to 1pm & 6pm to 10pm (Closed: Friday)
+Contact Number: 10606
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Musrat Rahman Deeba”, “what is the address of  Dr. Musrat Rahman Deeba”, “give me information of Dr. Musrat Rahman Deeba”, “provide me the information Dr. Musrat Rahman Deeba”, “Musrat Rahman Deeba”,  “Dr. Deeba” , “Dr. Musrat Rahman"],
+  "responses": ["Here are the information of the doctor-
+Pediatric Surgery Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Visiting Hour: Unknown. Please call to know visiting hour
+Contact Number: 10616
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Mahmuda Zaman”, “what is the address of  Dr. Mahmuda Zaman”, “give me information of Dr. Mahmuda Zaman”, “provide me the information of  Dr. Mahmuda Zaman”, “ Dr. Mahmuda Zaman”,  “Mahmuda Zaman"],
+  "responses": ["Here are the information of the doctor-
+Child Cancer Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616"],
+  "context_set": ""
+},
+
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_Square_hospital",
+  "patterns": ["Is there any cardiac specialist in Square Hospital” , “will you a suggest me Heart specialist in Square Hospital?”,” Heart doctor in Square Hospital”,” good Heart doctor in Square Hospital”,” Give me a name of Heart doctor in Square Hospital”, “Cardiac Specialist in Square Hospital” , “will you a suggest me cardiac specialist in Square Hospital?” “Give me a name of Cardiac doctor in Square Hospital”, “good cardiac doctor Square Hospital”, “cardiac doctor in Square Hospital"],
+  "responses": ["Here are some of the cardiac specialists in Square Hospital. You can check out from here-
+Dr. Kamal Pasha
+Dr. SM Shahedul Amin Robin
+Dr. Asif Manwar"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Kamal Pasha”, “what is the address of  Dr. Kamal Pasha”, “give me information of Dr. Kamal Pasha”, “provide me the information of  Dr. Kamal Pasha”, “ Dr. Kamal Pasha”,  “Kamal Pasha"],
+  "responses": ["Here are the information of the doctor-
+Interventional Cardiologist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. SM Shahedul Amin Robin”, “what is the address of  Dr. SM Shahedul Amin Robin”, “give me information of Dr. SM Shahedul Amin Robin”, “provide me the information of  Dr. SM Shahedul Amin Robin”, “ Dr. SM Shahedul Amin Robin”,  “Shahedul Amin Robin"],
+  "responses": ["Here are the information of the doctor-
+Cardiology Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Asif Manwar”, “what is the address of  Dr. Asif Manwar”, “give me information of Dr. Asif Manwar”, “provide me the information of  Dr. Asif Manwar”, “ Dr. Asif Manwar”,  “Dr. Asif Manwar"],
+  "responses": ["Here are the information of the doctor-
+Cardiology Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616
+"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Cancer_Specialist_in_Square_hospital",
+  "patterns": ["Is there any cancer specialist in Square Hospital” , “will you a suggest me cancer specialist in Square Hospital?”,” cancer doctor in Square Hospital”,” good cancer doctor Square Hospital”,” Give me a name of cancer doctor in Square Hospital”, “cancer Specialist in Square Hospital”, “Is there any oncologist in Square Hospital” , “will you a suggest me an oncologist in Square Hospital?”,” oncologist in Square Hospital”,” good oncologist in Square Hospital”,” Give me a name of an oncologist in Square Hospital”, “oncologist in Square Hospital"],
+  "responses": ["Here are some of the cancer specialists in Square Hospital. You can check out from here
+Dr. Arunangshu Das
+Dr. Md. Salim Reza
+Prof. Syed Md. Akram Hussain"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Arunangshu Das”, “what is the address of  Dr. Arunangshu Das”, “give me information of Dr. Arunangshu Das, “provide me the information of  Dr. Arunangshu Das”, “ Dr. Arunangshu Das”,  “Arunangshu Das"],
+  "responses": ["Here are the information of the doctor-
+Cancer Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  Dr. Md. Salim Reza”, “what is the address of  Dr. Md. Salim Reza”, “give me information of Dr. Md. Salim Reza”, “provide me the information of  Dr. Md. Salim Reza”, “ Dr. Md. Salim Reza”,  “Md. Salim Reza"],
+  "responses": ["Here are the information of the doctor-
+Cancer Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address  of  Dr. Syed Md. Akram Hussain”, “what is the address of  Dr. Syed Md. Akram Hussain”, “give me information of Dr. Syed Md. Akram Hussain”, “provide me the information of  Dr. Syed Md. Akram Hussain”, “ Dr. Syed Md. Akram Hussain”,  “Syed Md. Akram Hussain"],
+  "responses": ["Here are the information of the doctor-
+Clinical Oncologist & Radiotherapist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Child_Specialist_in_Square_hospital",
+  "patterns": ["Is there any child specialist in Square Hospital” , “will you a suggest me child specialist in Square Hospital?”,” child doctor in Square Hospital”,” good child doctor in Square Hospital,” Give me a name of child doctor in Square Hospital”, will you a suggest me child doctor in Square Hospital?”,” child doctor in Square Hospital” ,“child specialist in Square Hospital” , “Give me a name of child specialist in Square Hospital”, “good child specialist in Square Hospital”, “child specialist in Square Hospital”, “Is there any paediatrician in Square Hospital” , “will you a suggest me paediatrician in Square Hospital?”,” paediatrician in Square Hospital”,” good paediatrician in Square Hospital”,” Give me a name of a paediatrician Square Hospital”, “paediatrician in Square Hospital"],
+  "responses": ["Here are some of the child specialist in Square Hospital. You can check out from here-
+Prof. Dr. ABM Abdus Salam
+Dr. Lutfun Nahar Begum"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. ABM Abdus Salam”, “what is the address of  Dr. ABM Abdus Salam”, “give me information of Dr. ABM Abdus Salam”, “provide me the information of  Dr. ABM Abdus Salam”, “ Dr. ABM Abdus Salam”,  “ABM Abdus Salam"],
+  "responses": ["Here are the information of the doctor-
+Pediatric Cardiology Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616
+"],
+  "context_set": ""
+},
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Lutfun Nahar Begum”, “what is the address of  Dr. Lutfun Nahar Begum”, “give me information of Dr. Lutfun Nahar Begum”, “provide me the information of  Dr. Lutfun Nahar Begum”, “ Dr. Lutfun Nahar Begum”,  “Lutfun Nahar Begum"],
+  "responses": ["Here are the information of the doctor-
+Neonatal & Pediatrics Specialist
+Address: 8/F, Kazi Nuruzzaman Road, West Panthapath, Dhaka
+Contact Number: 10616
+"],
+  "context_set": ""
+},
+
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_Ibn Sina_hospital",
+  "patterns": ["Is there any cardiac specialist in Ibn Sina Hospital” , “will you a suggest me Heart specialist in Ibn Sina Hospital?”,” Heart doctor in Ibn Sina Hospital”,” good Heart doctor in Ibn Sina Hospital”,” Give me a name of Heart doctor in Ibn Sina Hospital”, “Cardiac Specialist in Ibn Sina Hospital” , “will you a suggest me cardiac specialist in Ibn Sina Hospital?” “Give me a name of Cardiac doctor in Ibn Sina Hospital”, “good cardiac doctor Ibn Sina Hospital”, “cardiac doctor in Ibn Sina Hospitalal"],
+  "responses": ["Here are some of the cardiac specialists in Ibn Sina Hospital. You can check out from here-
+Dr. Nirmal Kanti Dey
+Dr. Md. Zakir Hossain
+Dr. Rakibul Hasan Apu"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Nirmal Kanti Dey”, “what is the address of  Dr. Nirmal Kanti Dey”, “give me information of Dr. Nirmal Kanti Dey”, “provide me the information of  Dr. Nirmal Kanti Dey”, “ Dr. Nirmal Kanti Dey”,  “Nirmal Kanti Dey"],
+  "responses": ["Here are the information of the doctor-
+Cardiac Surgeon
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 6pm to 9pm (Sat, Mon & Wednesday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Md. Zakir Hossain”, “what is the address of  Dr. Md. Zakir Hossain”, “give me information of Dr. Md. Zakir Hossain”, “provide me the information of  Dr. Md. Zakir Hossain”, “ Dr. Md. Zakir Hossain”,  “Md. Zakir Hossain"],
+  "responses": ["Here are the information of the doctor-
+Cardiac Surgery Specialist
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 9am to 5pm (Closed: Friday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Rakibul Hasan Apu”, “what is the address of  Dr. Rakibul Hasan Apu”, “give me information of Dr. Rakibul Hasan Apu”, “provide me the information of  Dr. Rakibul Hasan Apu”, “ Dr. Rakibul Hasan Apu”,  “Rakibul Hasan Apu"],
+  "responses": ["Here are the information of the doctor-
+Cardiac Surgery Specialist
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 2.30pm to 6pm (Sunday, Tuesday and Thursday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Cancer_Specialist_in_Ibn Sina_hospital",
+  "patterns": ["Is there any cancer specialist in Ibn Sina Hospital” , “will you a suggest me cancer specialist in Ibn Sina Hospital?”,” cancer doctor in Ibn Sina Hospital”,” good cancer doctor Ibn Sina Hospital”,” Give me a name of cancer doctor in Ibn Sina Hospital”, “cancer Specialist in Ibn Sina Hospital”, “Is there any oncologist in Ibn Sina Hospital” , “will you a suggest me an oncologist in Ibn Sina Hospital?”,” oncologist in Ibn Sina Hospital”,” good oncologist in Ibn Sina Hospital”,” Give me a name of an oncologist in Ibn Sina Hospital”, “oncologist in Ibn Sina Hospital"],
+  "responses": ["Here are some of the cancer specialists in Ibn Sina Hospital. You can check out from here-
+Prof. Dr. Zafor Md. Masum"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Zafor Md. Masum”, “what is the address of  Dr. Zafor Md. Masum”, “give me information of Dr. Zafor Md. Masum”, “provide me the information of  Dr. Zafor Md. Masum”, “ Dr. Zafor Md. Masum”,  “Zafor Md. Masum"],
+  "responses": ["Here are the information of the doctor-
+Cancer Specialist
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 2.30pm to 6pm (Everyday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Child_Specialist_in_Ibn Sina_hospital",
+  "patterns": ["Is there any child specialist in Ibn Sina Hospital” , “will you a suggest me child specialist in Ibn Sina Hospital?”,” child doctor in Ibn Sina Hospital”,” good child doctor in Ibn Sina Hospital,” Give me a name of child doctor in Ibn Sina Hospital”, will you a suggest me child doctor in Ibn Sina Hospital?”,” child doctor in Ibn Sina Hospital” ,“child specialist in Ibn Sina Hospital” , “Give me a name of child specialist in Ibn Sina Hospital”, “good child specialist in Ibn Sina Hospital”, “child specialist in Ibn Sina Hospital”, “Is there any paediatrician in Ibn Sina Hospital” , “will you a suggest me paediatrician in Ibn Sina Hospital?”,” paediatrician in Ibn Sina Hospital”,” good paediatrician in Ibn Sina Hospital”,” Give me a name of a paediatrician Ibn Sina Hospital”, “paediatrician in Ibn Sina Hospital"],
+  "responses": ["Here are some of the child specialist in Ibn Sina Hospital. You can check out from here-
+Dr. Rumana Choudhury
+Dr. Tahmina Karim
+Dr. Shahin Akter"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Rumana Choudhury”, “what is the address of  Dr. Rumana Choudhury”, “give me information of Dr. Rumana Choudhury”, “provide me the information of  Dr. Rumana Choudhury”, “ Dr. Rumana Choudhury”,  “Rumana Choudhury"],
+  "responses": ["Here are the information of the doctor-
+Child Specialist
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 9am to 4pm (Closed: Friday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Tahmina Karim”, “what is the address of  Dr. Tahmina Karim”, “give me information of Dr. Tahmina Karim”, “provide me the information of Dr. Tahmina Karim Dr. Tahmina Karim”, “ Dr. Tahmina Karim”,  “Tahmina Karim"],
+  "responses": ["Here are the information of the doctor-
+Child Specialist
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 6pm to 9pm (Closed: Friday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Shahin Akter”, “what is the address of  Dr. Shahin Akter”, “give me information of Dr. Shahin Akter”, “provide me the information of  Dr. Shahin Akter”, “ Dr. Shahin Akter”,  “Shahin Akter"],
+  "responses": ["Here are the information of the doctor-
+Pediatrics & Neonatal Specialist
+Address: House # 68, Road # 15/A, Dhanmondi, Dhaka
+Visiting Hour: 6pm to 8pm (Closed: Friday)
+Contact Number: +8801823039800
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_Medinova_hospital",
+  "patterns": ["Is there any cardiac specialist in Medinova Hospital” , “will you a suggest me Heart specialist in Medinova Hospital?”,” Heart doctor in Medinova Hospital”,” good Heart doctor in Medinova Hospital”,” Give me a name of Heart doctor in Medinova Hospital”, “Cardiac Specialist in Medinova Hospital” , “will you a suggest me cardiac specialist in Medinova Hospital?” “Give me a name of Cardiac doctor in Medinova Hospital”, “good cardiac doctor Medinova Hospital”, “cardiac doctor in Medinova Hospital"],
+  "responses": ["Currently there are no Cardiologist in Medinova Hospital"],
+  "context_set": ""
+},
+
+{
+  "tag": "Cancer_Specialist_in_Medinova_hospital",
+  "patterns": ["Is there any cancer specialist in Medinova Hospital” , “will you a suggest me cancer specialist in Medinova Hospital?”,” cancer doctor in Medinova Hospital”,” good cancer doctor Medinova Hospital”,” Give me a name of cancer doctor in Medinova Hospital”, “cancer Specialist in Medinova Hospital”, “Is there any oncologist in Medinova Hospital” , “will you a suggest me an oncologist in Medinova Hospital?”,” oncologist in Medinova Hospital”,” good oncologist in Medinova Hospital”,” Give me a name of an oncologist in Medinova Hospital”, “oncologist in Medinova Hospital"],
+  "responses": ["Currently there are no oncologist in Medinova Hospital"],
+  "context_set": ""
+},
+
+{
+  "tag": "Child_Specialist_in_Medinova_hospital",
+  "patterns": ["Is there any child specialist in Medinova Hospital” , “will you a suggest me child specialist in Medinova Hospital?”,” child doctor in Medinova Hospital”,” good child doctor in Medinova Hospital,” Give me a name of child doctor in Medinova Hospital”, will you a suggest me child doctor in Medinova Hospital?”,” child doctor in Medinova Hospital” ,“child specialist in Medinova Hospital” , “Give me a name of child specialist in Medinova Hospital”, “good child specialist in Medinova Hospital”, “child specialist in Medinova Hospital”, “Is there any paediatrician in Medinova Hospital” , “will you a suggest me paediatrician in Medinova Hospital?”,” paediatrician in Medinova Hospital”,” good paediatrician in Medinova Hospital”,” Give me a name of a paediatrician Medinova Hospital”, “paediatrician in Medinova Hospital"],
+  "responses": ["Here are some of the child specialist in Medinova Hospital. You can check out from here-
+Prof. Dr. Nazma Begum"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Nazma Begum”, “what is the address of  Dr. Nazma Begum”, “give me information of Dr. Nazma Begum”, “provide me the information of  Dr. Nazma Begum”, “ Dr. Nazma Begum”,  “ Nazma Begum"],
+  "responses": ["Here are the information of the doctor-
+MBBS, FCPS
+Child Specialist
+Address: House # 71/A, Road # 5/A, Dhanmondi R/A, Dhaka
+Contact Number: +8801750557722"],
+  "context_set": ""
+},
+
+
+
+
+
+
+{
+  "tag": "Heart_Specialist_in_United_hospital",
+  "patterns": ["Is there any cardiac specialist in United Hospital” , “will you a suggest me Heart specialist in United Hospital?”,” Heart doctor in United Hospital”,” good Heart doctor in United Hospital”,” Give me a name of Heart doctor in United Hospital”, “Cardiac Specialist in United Hospital” , “will you a suggest me cardiac specialist in United Hospital?” “Give me a name of Cardiac doctor in United Hospital”, “good cardiac doctor United Hospital”, “cardiac doctor in United Hospital"],
+  "responses": ["Here are some of the cardiac specialists in United Hospital. You can check out from here
+Dr. Fatema Begum
+Dr. Rezaul Hassan
+Dr. A. M. Shafique"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Fatema Begum”, “what is the address of  Dr. Fatema Begum”, “give me information of Dr. Fatema Begum”, “provide me the information of  Dr. Fatema Begum”, “ Dr. Fatema Begum”,  “Fatema Begum"],
+  "responses": ["Here are the information of the doctor- Senior Consultant, Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666,
+Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Rezaul Hassan”, “what is the address of  Dr. Rezaul Hassan”, “give me information of Dr. Rezaul Hassan”, “provide me the information of  Dr. Rezaul Hassan”, “ Dr. Rezaul Hassan”,  “Rezaul Hassan"],
+  "responses": ["Here are the information of the doctor- Cardiac Surgeon, Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666,
+Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. A. M. Shafiq”, “what is the address of  Dr. A. M. Shafiq”, “give me information of Dr. Shahin Akter”, “provide me the information of  Dr. A. M. Shafiq”, “ Dr. A. M. Shafiq”,  “Dr. Shafiq"],
+  "responses": ["Here are the information of the doctor- Cardiology Specialist, Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666,
+Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Cancer_Specialist_in_United_hospital",
+  "patterns": ["Is there any cancer specialist in United Hospital” , “will you a suggest me cancer specialist in United Hospital?”,” cancer doctor in United Hospital”,” good cancer doctor United Hospital”,” Give me a name of cancer doctor in United Hospital”, “cancer Specialist in United Hospital”, “Is there any oncologist in United Hospital” , “will you a suggest me an oncologist in United Hospital?”,” oncologist United Hospital”,” good oncologist in United Hospital”,” Give me a name of an oncologist in United Hospital”, “oncologist in United Hospital"],
+  "responses": ["Here are some of the cancer specialists in United Hospital. You can check out from here-
+Dr. Rashid Un Nabi
+Dr. Ashim Kumar Sengupta"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Rashid Un Nabi”, “what is the address of  Dr. Rashid Un Nabi”, “give me information of Dr. Rashid Un Nabi”, “provide me the information of Dr. Rashid Un Nabi”, “ Dr. Rashid Un Nabi”,  “Rashid Un Nabi"],
+  "responses": ["Here are the information of the doctor- Senior Consultant, Radiation Oncology, Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666,
+Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com
+"],
+  "context_set": ""
+},
+
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Ashim Kumar Sengupta”, “what is the address of  Dr. Ashim Kumar Sengupta”, “give me information of Dr. Ashim Kumar Sengupta”, “provide me the information of  Dr. Ashim Kumar Sengupta”, “ Dr. Ashim Kumar Sengupta”,  “Ashim Kumar Sengupta” , “ Dr. Ashim Kumar"],
+    "responses": ["Here are the information of the doctor- Consultant, Clinical and Radiation Oncology, Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666, Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com"],
+  "context_set": ""
+},
+
+
+
+{
+  "tag": "Child_Specialist_in_United_hospital",
+  "patterns": ["Is there any child specialist in United Hospital” , “will you a suggest me child specialist in United Hospital?”,” child doctor in United Hospital”,” good child doctor in United Hospital,” Give me a name of child doctor in United HospitalUnited Hospital”, will you a suggest me child doctor in United Hospital?”,” child doctor in United Hospital” ,“child specialist in United Hospital” , “Give me a name of child specialist in United Hospital”, “good child specialist in United Hospital”, “child specialist in United Hospital”, “Is there any paediatrician in United Hospital” , “will you a suggest me paediatrician in United Hospital?”,” paediatrician in United Hospital”,” good paediatrician in United Hospital”,” Give me a name of a paediatrician United Hospital”, “paediatrician in United Hospital"],
+  "responses": ["Here are some of the child specialist in United Hospital. You can check out from here-
+Dr. Kaniz Hasina
+Dr. Prof. Md. Salim Shakur PhD"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Kaniz Hasina”, “what is the address of  Dr. Kaniz Hasina”, “give me information of Dr. Kaniz Hasina”, “provide me the information of Dr. Kaniz Hasina”, “ Dr. Kaniz Hasina”,  “Dr. Kaniz Hasina"],
+    "responses": ["Here are the information of the doctor- Consultant, Paediatric Surgery, Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666,
+Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com"],
+  "context_set": ""
+},
+
+
+
+
+{
+  "tag": "Doctor_address",
+  "patterns": ["can I get the address Dr. Salim Shakur”, “what is the address of  Dr. Salim Shakur”, “give me information of Dr. Salim Shakur”, “provide me the information of Dr. Salim Shakur”, “ Dr. Salim Shakur”,  “Salim Shakur"],
+  "responses": ["Here are the information of the doctor- Senior Consultant (Paediatrics), Address: Plot # 15, Road # 71, Gulshan, Dhaka
+Contact Number: 10666,
+Tel: +88 02 8836444, +88 02 8836000
+Email: info@uhlbd.com
+"],
+  "context_set": ""
+},

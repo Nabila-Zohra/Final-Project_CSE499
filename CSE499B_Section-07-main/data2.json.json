@@ -1,0 +1,531 @@
+{
+      "tag": "name",
+      "patterns": ["what is your name", "what should I call you", "whats your name?"],
+      "responses": ["You can call me Medihelper.", "I'm Medihelper!", "I'm your virtual assistant.call me Medihelper"],
+      "context_set": ""
+    },
+
+
+    {"tag": "Hospital_Name_of_Bashundhara",
+      "patterns": ["Hospitals near bashundhara?", "What are the hospitals near Bashundhara?", " Hospitals", "best hospitals Bashundhara"],
+      "responses": ["Some Hospitals in bashundhara are- AMZ hospital, Evercare hospital, central hospital, Baridhara general hospital, Bashundhara eye hospital & research institute"],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Hospital_Name_of_Mirpur",
+      "patterns": ["Hospitals near Mirpur?", "What are the hospitals near Mirpur?", "Mirpur Hospitals", "best hospitals Mirpur"],
+      "responses": ["Some Hospitals in Mirpur are-Mirpur general hospital & diagnostic centre, Dr Azmal hospital, Kidney foundation hospital & research, Mirpur holy crescent hospital, Al helal specialized hospital"],
+      "context_set": ""
+    },
+     {
+      "tag": "Hospital_Name_of_Mirpur & Bashundhara",
+      "patterns": ["Hospitals near Mirpur & bashundhara?", "What are the hospitals near Mirpur & bashundhara?", "Mirpur & bashundhra Hospitals", "best hospitals Mirpur & bashundhara"],
+      "responses": ["Some Hospitals in Mirpur & bashundhara are-Mirpur general hospital & diagnostic centre, Dr Azmal hospital, Kidney foundation hospital & research, Mirpur holy crescent hospital, Al helal specialized hospital, AMZ hospital, Evercare hospital, central hospital, Baridhara general hospital, Bashundhara eye hospital & research institute"],
+      "context_set": ""
+    },
+    {
+
+    "tag": "AMZ Hospital Address",
+    "patterns": ["What is the address of AMZ hospital?”, “where is AMZ hospital?”, “Address of AMZ hospital?”, “AMZ hospital"],
+    "responses": ["cha-80/3, shadinota sarani, progati sarani Rd, Dhaka 1212"],
+    "context_set": ""
+    },
+    {
+      "tag": "AMZ hospital Number",
+      "patterns": ["What is the phone number of AMZ hospital?”, “phone number of AMZ hospital?”, “AMZ hospital?"],
+      "responses": ["01847331010"],
+      "context_set": ""
+    },
+    {
+    "tag": "Evercare hospital Address & Number"
+    "patterns": ["What is the address & phone number of Evercare hospital?”, “where is Evercare hospital?”, “Address of Evercare hospital?”, “Evercare hospital?”, “phone number of Evercare hospital"],
+    "responses": ["Address: plot-81, block: E, Dhaka 1229, Phone number:09666710678"],
+    "context_set": ""
+    },
+    {
+    "tag": "Central hospital Address & Number"
+    "patterns": ["What is the address & phone number of Central hospital?”, “where is central hospital?”, “Address of Central hospital?”, “Central hospital?”, “phone number of central hospital?"],
+    "responses": ["address: House #2 Rd no,5, Dhaka 1, Phone number: 029660015"],
+    "context_set": ""
+    },
+    {
+    "tag": "Baridhara general hospital Address & Number"
+    "patterns": ["What is the address & phone number of Baridhara general hospital?”, “where is Baridhara general hospital?”, “Address of Baridhara general  hospital?”, “Baridhara general hospital?”, “phone number of Baridhara hospital?"],
+    "responses": ["address: ka 51/1 Progoti Sharani, Badda, Dhaka 1212, Phone number: 01924-403430"],
+    "context_set": ""
+    },
+    {
+    "tag": "bashundhara eye hospital & research institute"
+    "patterns": ["What is the address & phone number of  bashundhara eye hospital & research institute?”, “where is of  bashundhara eye hospital & research institute?”, “Address of of  bashundhara eye hospital & research institute?”, “of  bashundhara eye hospital & research institute?”, “phone number of of  bashundhara eye hospital & research institute?"],
+    "responses": ["Address: 474 A & D, Rd no 5, Dhaka 1229, Phone number: 0177559977"],
+    "context_set": ""
+    },
+    {
+    "tag": "Cardiology Specialist Doctor's from AMZ hospital"
+    "patterns": ["Can I get cardiology specialist doctor from AMZ hospitals?”, “cardiology specialist doctor from AMZ hospitals?”, “Is there are any cardiology specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “ AMZ hospitals cardiology doctor information?"],
+    "responses": ["Prof. Dr. Col. Md. Abdul Hannan, Dr. Harun-ur-Rashid Bhuiyan, Dr. Abu Hasnat Md. Masud Sinha"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.col.md.abdul hannan?", "What is the address of Dr.col.Md.abdul hannan?", "Give me information about Dr.col.Md.abdul hannan?", "Dr.col.Md. abdul hannan?"],
+    "responses": ["Prof. Dr. Col. Md. Abdul Hannan-Visiting hours: 7.30 pm – 9.30 pm everyday, For serial: 01847331015"],
+    "context_set": ""
+    },
+     {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.harun ur rashid bhuiyan?", "What is the address of Dr.harun ur rashid bhuiyan?", "Give me information about Dr.harun ur rashid bhuiyan?", "Dr.harun ur rashid bhuiyan?"],
+    "responses": ["Dr. Harun-ur-Rashid Bhuiyan-Visiting hours: 8 am – 12.30 pm and 5 pm – 9 pm everyday, For serial: 01847331027"],
+    "context_set": ""
+    },
+     {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.abu hasnamt md.masud sinha?", "What is the address of Dr.abu hasnat md.masud sinha?", "Give me information about Dr.abu hasnat md.masud sinha?", "Dr.abu hasnat md.masud sinha?"],
+    "responses": ["Dr. Abu Hasnat Md. Masud Sinha-Visiting hours: 8 am – 2.30 pm closed Friday, For serial: 10699"],
+    "context_set": ""
+    },
+    {
+    "tag": "Child specialist doctor's from AMZ hospital"
+    "patterns": ["Can I get child specialist doctor from AMZ hospitals?”, “child specialist doctor from evercare hospitals?”, “Is there are any Anesthesiology specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “AMZ hospitals  doctor information?"],
+    "responses": ["Dr. Sajani Islam Snigdha, Prof. Dr. Ariful Islam"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of sajani islam snighdha?", "What is the address of Dr.sajani islam snighdha?" ,"Give me information about Dr.asajani islam snighdha?" ,"Dr.sajani islam snighdha?"],
+    "responses": ["Dr. Sajani Islam Snigdha-Visiting hours: 6 pm – 8 pm Saturday to Wednesday, For serial: 10699"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.ariful islam?", "What is the address of Dr.ariful islam?", "Give me information about Dr.ariful islam?", "Dr.ariful islam?"],
+    "responses": ["Prof. Dr. Ariful Islam-Visiting hours:3.30 pm – 5.30 pm closed Thursday, For serial: 01847331019"],
+    "context_set": ""
+    },
+    {
+    "tag": "Anesthesiology specialist doctor's from  evercare hospital"
+    "patterns": ["Can I get Anesthesiology specialist doctor from Evercare hospitals?”, “Anesthesiology specialist doctor from evercare hospitals?”, “Is there are any Anesthesiology specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Evercare hospitals Anesthesiology doctor information?"],
+    "responses": ["Dr. Lutful Aziz, Dr. Hasina Akhter, Dr. Shyama Prosad Mitra"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.lutful aziz?", "What is the address of Dr.lutful aziz?", "Give me information about Dr.lutful aziz?", "Dr.lutful aziz?"],
+    "responses": ["Dr. Lutful Aziz-Visiting hours: on-call, For serial: 10678"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.hasina akter?", "What is the address of Dr.hasina akter?", "Give me information about Dr.hasina akter?", "Dr.hasina akter?"],
+    "responses": ["Dr. Hasina Akhter-Visiting hours: on-call, For serial: 10678"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.shyama prosad mitra?", "What is the address of Dr.shyama prosad mitra?", "Give me information about Dr. shyama prosad mitra?", "Dr.shyama prosad mitra?"],
+    "responses": ["Dr. Shyama Prosad Mitra-Visiting hours: on-call, For serial: 10678"],
+    "context_set": ""
+    },
+    {
+    "tag": "Cancer specialist doctor's from evercare hospital "
+    "patterns": ["Can I get cancer specialist doctor from Evercare hospitals?”, “cancer specialist doctor from evercare hospitals?”, “Is there are any cancer specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Evercare hospitals cancer doctor information?"],
+    "responses": ["Prof. Dr. Md. Moarraf Hossen-Visiting hours: 9 am – 5 pm, For serial: 10678, Dr. Ferdous Shahriar Sayed-Visiting hours: 9 am – 5 pm Saturday to Thursday, For serial: 10678"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address "
+    "patterns": ["Can i get the address of prof.dr.md.moarraf hossen?", "What is the address of prof.dr.md.moarraf hossen?", "Give me information about prof.dr.md.moarraf hossen?" "prof.dr.md.moarraf hossen?"],
+    "responses": ["Prof. Dr. Md. Moarraf Hossen-Visiting hours: 9 am – 5 pm, For serial: 10678"],
+    "context_set": ""
+    },
+     {
+    "tag": "doctor address "
+    "patterns": ["Can i get the address of Dr. Ferdous Shahriar Sayed?", "What is the address of Dr. Ferdous Shahriar Sayed ?", "Give me information about Dr. Ferdous Shahriar Sayed?", "Dr. Ferdous Shahriar Sayed?"],
+    "responses": ["Dr. Ferdous Shahriar Sayed-Visiting hours: 9 am – 5 pm Saturday to Thursday, For serial: 10678"],
+    "context_set": ""
+    },
+    {
+    "tag": "Cancer specialist doctor's from central hospital"
+    "patterns": ["Can I get cancer specialist doctor from Central hospitals?”, “cancer specialist doctor from central hospitals?”, “Is there are any cancer specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Central hospitals cancer doctor information?"],
+    "responses": ["prof dr. zillur Rahman bhuiyan"],
+    "context_set": ""
+    },
+    {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of prof dr. zillur Rahman bhuiyan ?", "What is the address of prof dr. zillur Rahman bhuiyan ?", "Give me information about prof dr. zillur Rahman bhuiyan ?", "prof dr. zillur Rahman bhuiyan?"],
+    "responses": ["prof dr. zillur Rahman bhuiyan-Visiting hours: 4.30 pm – 9.00 pm Friday closed, For serial: 0296600159"],
+    "context_set": ""
+    },
+    
+    {
+    "tag": "Diabetology specialist doctors from central hospital"
+    "patterns": ["Can I get diabetology specialist doctor from Central hospitals?”, “Diabetics specialist doctor from central hospitals?”, “Is there are any diabetology specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Central hospitals diabetic doctor information?"],
+    "responses": ["Dr.md. Anowarul Hossain, Dr. marufa mustari"],
+    "context_set": ""
+     },
+      {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr.md. Anowarul Hossain?", "What is the address of Dr.md. Anowarul Hossain ?", "Give me information about Dr.md. Anowarul Hossain?", "Dr.md. Anowarul Hossain?"],
+    "responses": ["Dr.md. Anowarul Hossain-Visiting hours: 4.30 pm – 7.30 pm Friday, Thursday closed, For serial: 0296600159"],
+    "context_set": ""
+     },
+     {
+    "tag": "doctor address"
+    "patterns": ["Can i get the address of Dr. marufa mustari?", "What is the address of Dr. marufa mustari?", "Give me information about Dr. marufa mustari ?", "Dr. marufa mustari?"],
+    "responses": ["Dr. marufa mustari-Visiting hours: 6.00 pm – 9.00 pm Friday closed, For serial: 0296600159"],
+    "context_set": ""
+     },
+     
+     {
+     "tag": "ENT specialist from central hospital"
+     "patterns": ["Can I get ENT specialist doctor from Central hospitals?”, “ENT specialist doctor from central hospitals?”, “Is there are any ENT specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Central hospitals ENT doctor information?"],
+     "responses": ["Dr. Masroor Rahman, Dr kazi shameemus salam"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr. Masroor Rahman?", "What is the address of Dr. Masroor Rahman?", "Give me information about Dr. Masroor Rahman?", "Dr. Masroor Rahman?"],
+     "responses": ["Dr. Masroor Rahman-Visiting hours: 8.00 pm – 10.00 pm, For serial: 0296600159"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr kazi shameemus salam?", "What is the address of Dr kazi shameemus salam?", "Give me information about Dr kazi shameemus salam?", "Dr kazi shameemus salam?"],
+     "responses": ["Dr kazi shameemus salam-Visiting hour: 7.00 pm – 9.00 pm Friday closed, For serial: 0296600159"],
+     "context_set": ""
+     },
+     {
+     "tag": "cardiology specialist doctor's from baridhara general hospital"
+     "patterns": ["Can I get cardiology specialist doctor from baridhara general hospitals?”, “cardiology specialist doctor from baridhara general hospitals?”, “Is there are any cardiology specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Baridhara general hospital cardiology doctor information?"],
+     "responses": ["Dr. azfar Hossain bhuiyan"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor information"
+     "patterns": ["Can i get the address of Dr. azfar Hossain bhuiyan?", "What is the address of Dr. azfar Hossain bhuiyan?", "Give me information about Dr. azfar Hossain bhuiyan?", "Dr. azfar Hossain bhuiyan?"],
+     "responses": ["Dr. azfar Hossain bhuiyan-Visiting hours: on-call, For serial: 01924403430"],
+     "context_set": ""
+     },
+     {
+     "tag": "Gynaecology specialist doctor's from baridhara general hospital"
+     "patterns": ["Can I get Gynaecology specialist doctor from baridhara general hospitals?”, “gynaecology specialist doctor from baridhara general hospitals?”, “Is there are any gynaecology specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Baridhara general hospital gynaecology doctor information?"],
+     "responses": ["Dr sharmin Hossain, Dr nasrin Hossain, Dr nazia ahmed, Dr roksana haque"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.sharmin hossain?", "What is the address of Dr.sharmin hossain?", "Give me information about Dr.sharmin hossain?", "Dr. sharmin hossain?"],
+     "responses": ["Dr sharmin Hossain-Visiting hour: on-call, For serial: 01924403430"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.nasrin hossain?", "What is the address of Dr.nasrin hossain?", "Give me information about nasrin hossain?", "nasrin hossain?"],
+     "responses": ["Dr nasrin Hossain-visiting hours: on-call, For serial: 01924403430"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.nazia ahmed?", "What is the address of Dr.nazia ahmed?", "Give me information about Dr.nazia ahmed?", "Dr.nazia ahmed?"],
+     "responses": ["Dr nazia ahmed-visiting hours: on-call, For serial: 01924403430"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.roksana haque?", "What is the address of Dr.roksana haque?", "Give me information about Dr.roksana haque?", "Dr.roksana haque?"],
+     "responses": ["Dr roksana haque-visiting hours: on-call, For serial: 01924403430"],
+     "context_set": ""
+     },
+     {
+     "tag": "Eye specialist doctors's from  Bashundhara eye hospital and research intitute"
+     "patterns": ["Can I get Eye specialist doctor from Bashundhara eye hospital and research intitute?”, “Eye specialist doctor from Bashundhara eye hospital and research intitute?”, “Is there are any Eye specialist doctors?”, “Can I get their visiting hour?”, “please give me doctor information?”, “Bashundhara eye hospital and research intitute  doctor information?"],
+     "responses": ["Dr.AKM mamunur rashid, prof dr. A.H.M enayet Hossain, Professor Dr. Deen Mohd. Noorul Huq, Professor Dr. Shah Alam,Professor Dr. Jalal Ahmed"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.AKM mamunur rashid?", "What is the address of Dr.AKM mamunur rashid?", "Give me information about Dr.AKM mamunur rashid?", "Dr.AKM mamunur rashid?"],
+     "responses": ["Dr.AKM mamunur rashid-Visiting hours: 9 am to 1 pm and 5.30 pm to 8.30pm,For serial: 01913925566"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of prof dr. A.H.M enayet Hossain?", "What is the address of prof dr. A.H.M enayet Hossain?", "Give me information about prof dr. A.H.M enayet Hossain?", "prof dr. A.H.M enayet Hossain?"],
+     "responses": ["prof dr. A.H.M enayet Hossain-Visiting hours: on-call, For serial: 8118628"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Professor Dr. Deen Mohd. Noorul Huq?", "What is the address of Professor Dr. Deen Mohd. Noorul Huq?", "Give me information about Professor Dr. Deen Mohd. Noorul Huq?", "Professor Dr. Deen Mohd. Noorul Huq?"],
+     "responses": ["Professor Dr. Deen Mohd. Noorul Huq-Visiting hours: on-call, For serial: 0-2-9119738, 8113628"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Professor Dr. Shah Alam?", "What is the address of Professor Dr. Shah Alam ?", "Give me information about Professor Dr. Shah Alam?", "Professor Dr. Shah Alam?"],
+     "responses": ["Professor Dr. Shah Alam-Visiting hours: on-call,For serial: 0-2-8159457, 81424"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Professor Dr. Jalal Ahmed?", "What is the address of Professor Dr. Jalal Ahmed?", "Give me information about Professor Dr. Jalal Ahmed?", "Professor Dr. Jalal Ahmed?"],
+     "responses": ["Professor Dr. Jalal Ahmed-Visiting hours: on-call, For serial: 0-2-9669480"],
+     "context_set": ""
+     },
+     {
+     "tag": "Mirpur of General  hospitals & diagnostic centre Address"
+     "patterns": ["What is the address Mirpur of General  hospitals & diagnostic centre ”?, “address of Mirpur general hospitals & diagnostic centre?"],
+     "responses": ["Block-B, plot no 10, 1216 road 4"],
+     "context_set": ""
+     },
+     {
+     "tag": "Mirpur of General  hospitals & diagnostic centre Number"
+     "patterns": ["What is the phone number Mirpur General  hospitals & diagnostic centre  phone number”?, “phone number of Mirpur general hospitals & diagnostic centre?"],
+     "responses": ["01785906599"],
+     "context_set": ""
+     },
+     {
+     "tag": "Dr.Azmal hospitals Address"
+     "patterns": ["What is  the address Dr.Azmal hospitals ?”, “address of Dr.Azmal hospitals?”, “Mirpur Dr.Azmal hospital address?"],
+     "responses": ["plot 5, road number 4, Dhaka 1216"],
+     "context_set": ""
+     },
+     {
+     "tag": "Dr.Azmal hospital Number"
+     "patterns": ["What is the phone number Dr.Azmal hospitals ?”, “phone number of Dr.Azmal hospitals?”, “Mirpur Dr.Azmal hospital phone number?"],
+     "responses": [" 019612304304"],
+     "context_set": ""
+     },
+     {
+     "tag": "kidney foundation hospital & research institute Address"
+     "patterns": ["Address of kidney foundation hospital & research institute?”, “What is the address of kidney foundation hospital & research institute?"],
+     "responses": ["plot 5/2, road no-1, section-2, Mirpur, Dhaka 1216"],
+     "context_set": ""
+     },
+     {
+     "tag": "kidney foundation hospital & research institute Number"
+     "patterns": ["What is the phone number of kidney foundation hospital & research institute?”, “phone number of kidney foundation hospital & research institute?"],
+     "responses": ["0244807448"],
+     "context_set": ""
+     },
+     {
+     "tag": "Mirpur holy crescent hospital Address"
+     "patterns": ["what is the address of Mirpur holy crescent hospital?”, “address of Mirpur holy crescent hospital?”, “Where are the Mirpur holy crescent hospital?"],
+     "responses": ["195 mazar road, Dhaka 1216"],
+     "context_set": ""
+     },
+     {
+     "tag": "Mirpur holy crescent hospital Number"
+     "patterns": ["phone number of Mirpur holy crescent hospital?”, “what is the phone number of Mirpur holy crescent hospital?"],
+     "responses": ["01913821665"],
+     "context_set": ""
+     },
+     {
+     "tag": "Al helal specialized hospital Address"
+     "patterns": ["Where is Al helal specialized hospital?”, “Address of  Al helal specialized hospital?”, “What is the address Al helal specialized hospital?"],
+     "responses": ["150,begum rokeya sarani, Mirpur-10"],
+     "context_set": ""
+     },
+     {
+     "tag": "Al helal specialized hospital Number"
+     "patterns": ["phone number of Al helal specialized hospital?”, “What is the phone number Al helal specialized hospital?"],
+     "responses": ["029008181"],
+     "context_set": ""
+     },
+     {
+     "tag": "Medicine specialist doctor's from Mirpur general hospital and diagnostic centre"
+     "patterns": ["Can I get medicine specialist doctors from Mirpur general hospital and diagnostic centre?” “Is there any medicine doctor?”, “Medicine doctors in Mirpur general hospital and diagnostic centre?”, “please give their information?”, “May I get their visiting hours?"],
+     "responses": ["Dr. mohammad  fayezur Rahman, Dr. parvez sohel ahmed, Dr.Md. saiful islam"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr. mohammad fayezur rahman?", "What is the address of Dr. mohhammad fayezur rahman?", "Give me information about Dr.mohammad fayezur rahman?", "Dr.mohammad fayezur rahman?"],
+     "responses": [""Dr. mohammad  fayezur Rahman-Visiting hours: 6 pm – 8 pm Thursday and Friday closed"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns":["Can i get the address of Dr. parvez sohel ahmed?", "What is the address of Dr. parvez sohel ahmed?", "Give me information about Dr. parvez sohel ahmed?", "Dr.parvez sohel ahmed?"],
+     "responses": ["Dr. parvez sohel ahmed-Visiting hours: 6 pm -8 pm Friday closed, For serial: 01785906599"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns":["Can i get the address of Dr.Md.saiful islam?", "What is the address of Dr.Md.saiful islam?", "Give me information about Dr.Md.saiful islam?", "Dr.Md.saiful islam?"],
+     "responses": ["Dr.Md. saiful islam-Visiting hours: 7 pm – 10 pm Friday closed, For serial: 01785906599"],
+     "context_set": ""
+     },
+     {
+     "tag": "cardiologist & surgeon specialist",
+     "patterns": ["Can I get cardiologist & surgeon specialist doctors from Mirpur general hospital and diagnostic centre?” “Is there any cardiologist & surgeon doctor?”, “cardiologist & surgeon doctors in Mirpur general hospital and diagnostic centre?”, “Please tell me about their information?”, “can I get their name and visiting hours?"],
+     "responses": ["Dr. Mohammad moniruzzaman, Dr. mahbub morshed"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address",
+     "patterns": ["Can i get the address of Dr. mohammad moniruzzaman?", "What is the address of Dr.mohammad moniruzzaman?", "Give me information about Dr.mohammad moniruzzaman?", "Dr. mohammad moniruzzaman?"],
+     "responses": ["Dr. Mohammad moniruzzaman-Visiting hours- 7 pm – 8 pm, For serial: 01785906599"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address",
+     "patterns": ["Can i get the address of Dr.mahbub morshed?", "What is the address of Dr.mahbub morshed?", "Give me information about Dr.mahbub morshed?", "Dr. mahbub morshed?"],
+     "responses": ["Dr. mahbub morshed-Visiting hours: on-call, For serial: 01785906599"],
+     "context_set": ""
+     },
+     {
+     "tag": "surgeon specialist"
+     "patterns": ["Can I get surgery specialist doctors from Dr. Azmal hospital?”, “Is there any surgery doctor?”, “Surgery specialist doctors in Dr Azmal hospital?”, “Please tell me about doctor’s information?”, “can I get their name and visiting hours?"],
+     "responses": ["Dr. ABM Jamal, Dr. Syed Ahsan Ali"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.ABM jamal?", "What is the address of Dr.ABM jamal?", "Give me information about Dr.ABM jamal?", "Dr ABM jamal?"],
+     "responses": ["Dr. ABM Jamal-Visiting hours: 5:30 PM-7:30 PM Friday Off. For serial: 01716857717"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.sayed ahsan ali?", "What is the address of Dr.sayed ahsan ali?", "Give me information about Dr.sayed ahsan ali?", "Dr.sayed ahsan ali?"],
+     "responses": ["Dr. Syed Ahsan Ali-Visiting Hours: 5:00 PM-7:00 PM Friday Off, For serial: 017716857717"],
+     "context_set": ""
+     },
+     {
+     "tag": "Kidney specialist"
+     "patterns": ["Can I get kidney specialist doctor’s from kidney foundation hospital and research institute?” “Is there any doctor from kidney specialist?”, “doctors in from kidney foundation hospital and research institute?”, “Please tell me about doctor’s information?”, “can I get their name and visiting hours?”, “How can I get their appointment?”, “Want to know doctor’s visiting hour’s?"],
+     "responses": ["Maj.Gen.(Retd) prof.Dr.ziauddin ahmed, Dr. Harun Ur Rashid, Prof. Dr. Shamim Ahmed, Dr. tasnuva sarah kashem, Dr shakib uzzaman arefin"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.maj gen prof zaiuddin ahmed?", "What is the address of Dr.ziauddin ahmed?", "Give me information about Dr.ziauddin ahmed?", "Dr.ziauddin ahmed?"],
+     "responses": ["Maj.Gen.(Retd) prof.Dr.ziauddin ahmed-Visiting hours: 10.00 am, 1.00 pm, For serial: 9024865, 90204074"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.harun ur rashid?", "What is the address of Dr.harun ur rahshid?", "Give me information about Dr.harun ur rashid?", "Dr.harun ur rashid?"],
+     "responses": ["Dr. Harun Ur Rashid-Visiting hours: on call, Number: 01623324850"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.shamim ahmed?", "What is the address of Dr.shamim ahmed?", "Give me information about Dr.shamim ahmed?", "Dr.shamim ahmed?"],
+     "responses": ["Dr. Shamim Ahmed-Visiting hours: 5pm to 9pm Closed: Friday, For serial: 01623324850"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.tasnuva sarah kashem?", "What is the address of Dr.tasnuva sarah kashem?", "Give me information about Dr.tasnuva sarah kashem?", "Dr.tasnuva sarah kashem?"],
+     "responses": ["Dr. tasnuva sarah kashem-Visiting hours: on-call, Contact info: 28631841"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.shakib uz zamzn arefin?", "What is the address of Dr.shakib uzzaman arefin?", "Give me information about Dr.shakib uzzaman arefin?", "Dr.shakib uzzaman arefin?"],
+     "responses": ["Dr shakib uzzaman arefin-Visiting hours: on-call Friday off, Contact info: 28055287"],
+     "context_set": ""
+     },
+     {
+     "tag": "Heart specialist"
+     "patterns": ["Can I get heart specialist doctor’s from Mirpur holy crescent hospital?” “Is there any doctor from kidney specialist?”, “doctors in from Mirpur holy crescent hospital?”, “Please tell me about doctor’s information?”, “can I get their name and visiting hours?”, “How can I get their appointment?”, “Want to know doctor’s visiting hour’s?"],
+     "responses": ["Dr. Md. Akhtaruzzaman, Dr. Md. Enayatul Islam"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.aktaruzzaman?", "What is the address of Dr.aktaruzzaman ?", "Give me information about Dr.aktaruzzaman?", "Dr.aktaruzzaman?"],
+     "responses": ["Dr. Md. Akhtaruzzaman-Visiting hours: on-call, For serial: 01913821665"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.Md.enayatul islam?", "What is the address of Dr.Md.enayatul islam?", "Give me information about Dr.Md.enayatul islam?", "Dr.Md.enayatul islam?"],
+     "responses": ["Dr. Md. Enayatul Islam-Visiting hours: on-call, For serial: 01913821665"],
+     "context_set": ""
+     },
+     {
+     "tag": "Surgery specialist"
+     "patterns": ["Is there any surgery specialist doctors from Mirpur crescent hospital?”, “Surgery doctors from Mirpur crescent hospital?”, “Can I get surgery specialist doctors informtion"],
+     "responses": ["Breg. Gen. Dr. M. A Baki, Prof. Dr. Md. Kholilur Rahman, Dr. Md. Shofiul Alam"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.M.A baki?", "What is the address of Dr.M.A baki?", "Give me information about Dr.M.A baki?", "Breg.gen.dr.m.a baki?"],
+     "responses": ["Breg. Gen. Dr. M. A Baki-Visiting hours: on-cal, For serial: 0101382166"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of DR. Md. kholilur rahman?", "What is the address of Dr.Md. kholilur rahman?", "Give me information about Dr.Md.kholilur rahman?", "Dr.Md.kholilur rahman?"],
+     "responses": ["Dr. Md. Kholilur Rahman-Visiting hours: on-call, For serial: 0191382166"],
+     "context_set": ""
+     },
+      {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.Md. shofiul alam?", "What is the address of Dr.Md.shofiul alam?", "Give me information about Dr.Md.shofiul alam?", "Dr.Md.shofiul alam?"],
+     "responses": ["Dr. Md. Shofiul Alam-Visiting hours: on-call, For serial: 01913821665"],
+     "context_set": ""
+     },
+     {
+     "tag": "Medicine & cardiology special"
+     "patterns": ["Can I get medicine & cardiology doctor’s from Al helal specialized hospital?” “Is there any doctor from cardiology?”, “doctors in from Al helal specialized hospital?”, “Please tell me about doctor’s information?”, “can I get their name and visiting hours?”, “How can I get their appointment?”, “Want to know doctor’s visiting hour’s"],
+     "responses": ["Prof. Dr. Md. Shahab Uddin Khan, Dr. Mohammad Kamal Dr. Mohammad Shafiqur Rahman"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.Md. shahab uddin khan?", "What is the address of Dr.Md.Shahab uddin khan?", "Give me information about Dr.Md.shahab uddin khan?", "Dr.Md.shahab uddin khan"],
+     "responses": ["Prof. Dr. Md. Shahab Uddin Khan-Visiting Hours: on-call, For serial: 0-2-9008181, 9006820, 8058782, 80533481"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.mohammad kamal?", "What is the address of Dr.mohammad kamal?", "Give me information about Dr.Mohammad kamal?", "Dr.Mohammad kamal"],
+     "responses": ["Dr. Mohammad Kamal Hossain-Visiting hours: on-call, For serial: 0-2-9008181, 9006820, 8058782, 8053481"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.Mohammad shafiqur rahman?", "What is the address of Dr.mohammad shafiqur rahmann?", "Give me information about Dr.mohammad shafiqur rahman?", "Dr.mohammad shafiqur rahman"],
+     "responses": [" Dr. Mohammad Shafiqur Rahman Patwary-Visiting Hours: on-call, For serial: 0-2-9006820, 8053481"],
+     "context_set": ""
+     },
+     {
+     "tag": "skin specialist"
+     "patterns":["Please can I get skin doctor’s from Al helal specialized hospital?” “Is there any dermatology doctor from?”, “doctors in from Al helal specialized hospital?”, “Please tell me about doctor’s information?”, “can I get their name and visiting hours?”, “How can I get their appointment?”, “Want to know doctor’s visiting hour’s?"],
+     "responses": ["Dr. Latifur Rahman"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns":["Can i get the address of Dr.latifur rahman?", "What is the address of Dr.latifur rahmann?", "Give me information about Dr.latifur rahman?" ,"Dr.latifur rahman"],
+     "responses": ["Dr. Latifur Rahman-Visiting hours: on-call, For serial: 0-2-9008181, 9006820, 8058782"],
+     "context_set": ""
+     },
+     {
+     "tag": "gynecology specialist"
+     "patterns": ["Is there any gynecology doctors from Al helal specialized hospital?”, “Gynecology doctors from Al helal specialized hospital?”, “Can I get gynecology specialist doctors information?"],
+     "responses": ["Dr. Zahanara"],
+     "context_set": ""
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.zahanara?", "What is the address of Dr.zahanara?", "Give me information about Dr.zahanara?", "Dr.zahanara"],
+     "responses": ["Dr. Zahanara-Visiting Hours: on-call, For serial: 0-2-9008181, 9006820, 8058782, 8053481"],
+     "context_set": ""
+     },
+     {
+     "tag": "Child specialist"
+     "patterns": ["Is there any child specialist doctors from Al helal specialized hospital?”, “Child specialist doctors from Al helal specialized hospital?”, “Can I get child specialist doctors information?"],
+     "responses": ["Dr. Shaheen Akter"]
+     },
+     {
+     "tag": "doctor address"
+     "patterns": ["Can i get the address of Dr.shaheen akter?", "What is the address of Dr.shaheen akter?", "Give me information about Dr.shaheen akter?", "Dr.shaheen akter"],
+     "responses": ["Dr. Shaheen Akter-Visiting Hours: on-call, For serial:0-2-9008181, 9006820, 8058782, 8053481"]
+     },

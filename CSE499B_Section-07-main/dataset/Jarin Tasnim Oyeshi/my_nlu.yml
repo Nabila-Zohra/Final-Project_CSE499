@@ -1,0 +1,710 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bye
+  examples: |
+    - No, I am good as of now. Bye
+    - Bye
+    - Bbye
+
+- intent: get_introduction
+  examples: |
+    - Tell me more about you.
+    - What do you do?
+    - how to use you?
+    - instructions
+    - How do you work?
+
+- intent: hospital_search_by_area
+  examples: |
+    - Hospitals near [Mohammadpur](area)
+    - What are the hospitals near [Mohammadpur](area)
+    - [Mohammadpur](area) Hospitals
+    - Best hospitals [Mohammadpur](area)
+
+    - Hospitals near [Mirpur](area)
+    - What are the hospitals near [Mirpur](area)
+    - [Mirpur](area) Hospitals
+    - Best hospitals [Mirpur](area)
+
+    - Hospitals near [Bashundhara](area)
+    - What are the hospitals near [Bashundhara](area)
+    - [Bashundhara](area)Hospitals
+    - Best hospitals [Bashundhara](area)
+
+    - Hospitals near [Dhanmondi](area)
+    - What are the hospitals near [Dhanmondi](area)
+    - [Dhanmondi](area) Hospitals
+    - Best hospitals [Dhanmondi](area)
+
+    - Hospitals near [Gulshan] (area)
+    - What are the hospitals near [Gulshan](area)
+    - [Gulshan](area) Hospitals
+    - Best hospitals [Gulshan](area)
+
+- intent: hospital_search_by_disease
+  examples: |
+    - [heart](problem_type) hospitals in Dhaka
+    - Is there any [heart](problem_type) hospitals in Dhaka
+    - [heart](problem_type) Hospitals in Dhaka
+    - [heart](problem_type) specialized hospitals in Dhaka
+    - [heart](problem_type) hospital
+    - Good [heart](problem_type) hospital
+    - Best [heart](problem_type) hospital
+    - Suggest me a [heart](problem_type) hospital
+
+    - [cancer](problem_type) hospitals in Dhaka
+    - Is there any [cancer](problem_type) hospitals in Dhaka
+    - [cancer](problem_type) Hospitals in Dhaka
+    - [cancer](problem_type) specialized hospitals in Dhaka
+    - [cancer](problem_type) hospital
+    - Good [cancer](problem_type) hospital
+    - Best [cancer](problem_type) hospital
+    - Suggest me a [cancer](problem_type) hospital
+
+    - [child](problem_type) hospitals in Dhaka
+    - Is there any [child](problem_type) hospitals in Dhaka
+    - [child](problem_type) Hospitals in Dhaka
+    - [child](problem_type) specialized hospitals in Dhaka
+    - [child](problem_type) hospital
+    - Good [child](problem_type) hospital
+    - Best [child](problem_type) hospital
+    - Suggest me a [child](problem_type) hospital
+
+- intent: Hospital_address
+  examples: |
+    - Address of [Al-Manar Hospital](hospital_name)
+    - [Al-Manar Hospital](hospital_name)
+    - I need the address of [Al-Manar Hospital](hospital_name)
+    - what is the address of [Al-Manar Hospital](hospital_name)
+    - Where is [Al-Manar Hospital](hospital_name)
+
+    - Address of [City Hospital & Diagnostic Center](hospital_name)
+    - [City Hospital & Diagnostic Center](hospital_name)
+    - I need the address of [City Hospital & Diagnostic Center](hospital_name)
+    - what is the address of [City Hospital & Diagnostic Center](hospital_name)
+    - Where is [City Hospital & Diagnostic Center](hospital_name)
+
+    - Address of [Dhaka Central International Medical College](hospital_name)
+    - [Dhaka Central International Medical College](hospital_name)
+    - I need the address of [Dhaka Central International Medical College](hospital_name)
+    - what is the address of [Dhaka Central International Medical College](hospital_name)
+    - Where is [Dhaka Central International Medical College](hospital_name)
+
+    - Address of [Bangladesh Specialized Hospital](hospital_name)
+    - [Bangladesh Specialized Hospital](hospital_name)
+    - I need the address of [Bangladesh Specialized Hospital](hospital_name)
+    - what is the address of [Bangladesh Specialized Hospital](hospital_name)
+    - Where is [Bangladesh Specialized Hospital](hospital_name)
+
+    - Address of [Labaid Hospital Dhanmondi](hospital_name)
+    - [Labaid Hospital Dhanmondi](hospital_name)
+    - I need the address of [Labaid Hospital Dhanmondi](hospital_name)
+    - what is the address of [Labaid Hospital Dhanmondi](hospital_name)
+    - Where is [Labaid Hospital Dhanmondi](hospital_name)
+
+    - Address of [Square Hospital, Dhaka](hospital_name)
+    - [Square Hospital, Dhaka](hospital_name)
+    - I need the address of [Square Hospital, Dhaka](hospital_name)
+    - what is the address of [Square Hospital, Dhaka](hospital_name)
+    - Where is [Square Hospital, Dhaka](hospital_name)
+
+    - Address of [Ibn Sina Hospital Dhanmondi](hospital_name)
+    - [Ibn Sina Hospital Dhanmondi](hospital_name)
+    - I need the address of [Ibn Sina Hospital Dhanmondi](hospital_name)
+    - what is the address of [Ibn Sina Hospital Dhanmondi](hospital_name)
+    - Where is [Ibn Sina Hospital Dhanmondi](hospital_name)
+
+    - Address of [Medinova Hospital, Dhanmondi](hospital_name)
+    - [Medinova Hospital, Dhanmondi](hospital_name)
+    - I need the address of [Medinova Hospital, Dhanmondi](hospital_name)
+    - what is the address of [Medinova Hospital, Dhanmondi](hospital_name)
+    - Where is [Medinova Hospital, Dhanmondi](hospital_name)
+
+    - Address of [United Hospital Dhaka](hospital_name)
+    - [United Hospital Dhaka](hospital_name)
+    - I need the address of [United Hospital Dhaka](hospital_name)
+    - what is the address of [United Hospital Dhaka](hospital_name)
+    - Where is [United Hospital Dhaka](hospital_name)
+
+    - Address of [AMZ hospital](hospital_name)
+    - [AMZ hospital](hospital_name)
+    - I need the address of [AMZ hospital](hospital_name)
+    - what is the address of [AMZ hospital](hospital_name)
+    - Where is [AMZ hospital](hospital_name)
+
+    - Address of [Evercare hospital](hospital_name)
+    - [Evercare hospital](hospital_name)
+    - I need the address of [Evercare hospital](hospital_name)
+    - what is the address of [Evercare hospital](hospital_name)
+    - Where is [Evercare hospital](hospital_name)
+
+    - Address of [Central hospital](hospital_name)
+    - [Central hospital](hospital_name)
+    - I need the address of [Central hospital](hospital_name)
+    - what is the address of [Central hospital](hospital_name)
+    - Where is [Central hospital](hospital_name)
+
+    - Address of [Baridhara general hospital](hospital_name)
+    - [Baridhara general hospital](hospital_name)
+    - I need the address of [Baridhara general hospital](hospital_name)
+    - what is the address of [Baridhara general hospital](hospital_name)
+    - Where is [Baridhara general hospital](hospital_name)
+
+    - Address of [Mirpur general hospitals & diagnostic centre](hospital_name)
+    - [Mirpur general hospitals & diagnostic centre](hospital_name)
+    - I need the address of [Mirpur general hospitals & diagnostic centre](hospital_name)
+    - what is the address of [Mirpur general hospitals & diagnostic centre](hospital_name)
+    - Where is [Mirpur general hospitals & diagnostic centre](hospital_name)
+
+    - Address of [Dr Azmal hospital](hospital_name)
+    - [Dr Azmal hospital](hospital_name)
+    - I need the address of [Dr Azmal hospital](hospital_name)
+    - what is the address of [Dr Azmal hospital](hospital_name)
+    - Where is [Dr Azmal hospital](hospital_name)
+
+    - Address of [Mirpur holy crescent hospital](hospital_name)
+    - [Mirpur holy crescent hospital](hospital_name)
+    - I need the address of [Mirpur holy crescent hospital](hospital_name)
+    - what is the address of [Mirpur holy crescent hospital](hospital_name)
+    - Where is [Mirpur holy crescent hospital](hospital_name)
+
+    - Address of [Al helal specialized hospital dhaka](hospital_name)
+    - [Al helal specialized hospital dhaka](hospital_name)
+    - I need the address of [Al helal specialized hospital dhaka](hospital_name)
+    - what is the address of [Al helal specialized hospital dhaka](hospital_name)
+    - Where is [Al helal specialized hospital dhaka](hospital_name)
+
+    - Address of [National Heart Foundation Hospital](hospital_name)
+    - [National Heart Foundation Hospital](hospital_name)
+    - I need the address of [National Heart Foundation Hospital](hospital_name)
+    - what is the address of [National Heart Foundation Hospital](hospital_name)
+    - Where is [National Heart Foundation Hospital](hospital_name)
+
+    - Address of [Cardiac Electrophysiology & Heart Failure Center](hospital_name)
+    - [Cardiac Electrophysiology & Heart Failure Center](hospital_name)
+    - I need the address of [Cardiac Electrophysiology & Heart Failure Center](hospital_name)
+    - what is the address of [Cardiac Electrophysiology & Heart Failure Center](hospital_name)
+    - Where is [Cardiac Electrophysiology & Heart Failure Center](hospital_name)
+
+    - Address of [Ibrahim Cardiac Hospital & Research Institute](hospital_name)
+    - [Ibrahim Cardiac Hospital & Research Institute](hospital_name)
+    - I need the address of [Ibrahim Cardiac Hospital & Research Institute](hospital_name)
+    - what is the address of [Ibrahim Cardiac Hospital & Research Institute](hospital_name)
+    - Where is [Ibrahim Cardiac Hospital & Research Institute](hospital_name)
+
+    - Address of [LABAID Cardiac Hospital](hospital_name)
+    - [LABAID Cardiac Hospital](hospital_name)
+    - I need the address of [LABAID Cardiac Hospital](hospital_name)
+    - what is the address of [LABAID Cardiac Hospital](hospital_name)
+    - Where is [LABAID Cardiac Hospital](hospital_name)
+
+    - Address of [Millennium Heart & General Hospital Ltd](hospital_name)
+    - [Millennium Heart & General Hospital Ltd](hospital_name)
+    - I need the address of [Millennium Heart & General Hospital Ltd](hospital_name)
+    - what is the address of [Millennium Heart & General Hospital Ltd](hospital_name)
+    - Where is [Millennium Heart & General Hospital Ltd](hospital_name)
+
+    - Address of [Ahsania Mission Cancer Hospital](hospital_name)
+    - [Ahsania Mission Cancer Hospital](hospital_name)
+    - I need the address of [Ahsania Mission Cancer Hospital](hospital_name)
+    - what is the address of [Ahsania Mission Cancer Hospital](hospital_name)
+    - Where is [Ahsania Mission Cancer Hospital](hospital_name)
+
+    - Address of [National Institute of cancer Research & Hospital (NICRH) ](hospital_name)
+    - [National Institute of cancer Research & Hospital (NICRH) ](hospital_name)
+    - I need the address of [National Institute of cancer Research & Hospital (NICRH) ](hospital_name)
+    - what is the address of [National Institute of cancer Research & Hospital (NICRH) ](hospital_name)
+    - Where is [National Institute of cancer Research & Hospital (NICRH) ](hospital_name)
+
+    - Address of [Ahsania Mission Cancer & General Hospital](hospital_name)
+    - [Ahsania Mission Cancer & General Hospital](hospital_name)
+    - I need the address of [Ahsania Mission Cancer & General Hospital](hospital_name)
+    - what is the address of [Ahsania Mission Cancer & General Hospital](hospital_name)
+    - Where is [Ahsania Mission Cancer & General Hospital](hospital_name)
+
+    - Address of [Labaid Cancer Hospital](hospital_name)
+    - [Labaid Cancer Hospital](hospital_name)
+    - I need the address of [Labaid Cancer Hospital](hospital_name)
+    - what is the address of [Labaid Cancer Hospital](hospital_name)
+    - Where is [Labaid Cancer Hospital](hospital_name)
+
+    - Address of [The ENT and Head Cancer Hospital and Institute](hospital_name)
+    - [The ENT and Head Cancer Hospital and Institute](hospital_name)
+    - I need the address of [The ENT and Head Cancer Hospital and Institute](hospital_name)
+    - what is the address of [The ENT and Head Cancer Hospital and Institute](hospital_name)
+    - Where is [The ENT and Head Cancer Hospital and Institute](hospital_name)
+
+    - Address of [Dhaka Shishu (Children) Hospital](hospital_name)
+    - [Dhaka Shishu (Children) Hospital](hospital_name)
+    - I need the address of [Dhaka Shishu (Children) Hospitalv](hospital_name)
+    - what is the address of [Dhaka Shishu (Children) Hospital](hospital_name)
+    - Where is [Dhaka Shishu (Children) Hospital](hospital_name)
+
+    - Address of [Dr. MR Khan Shishu hospital & Institute of Child Health](hospital_name)
+    - [Dr. MR Khan Shishu hospital & Institute of Child Health](hospital_name)
+    - I need the address of [Dr. MR Khan Shishu hospital & Institute of Child Health](hospital_name)
+    - what is the address of [Dr. MR Khan Shishu hospital & Institute of Child Health](hospital_name)
+    - Where is [Dr. MR Khan Shishu hospital & Institute of Child Health](hospital_name)
+
+    - Address of [Dhaka Paediatric-Neonatal & General Hospital Limited](hospital_name)
+    - [Dhaka Paediatric-Neonatal & General Hospital Limited](hospital_name)
+    - I need the address of [Dhaka Paediatric-Neonatal & General Hospital Limited](hospital_name)
+    - what is the address of [Dhaka Paediatric-Neonatal & General Hospital Limited](hospital_name)
+    - Where is [Dhaka Paediatric-Neonatal & General Hospital Limited](hospital_name)
+
+
+- intent: doctors_search_by_name
+  examples: |
+    - can I get the address  of  [Dr. Mohammad Zakir Hossain](Doctor_name)
+    - what is the address of [Dr. Mohammad Zakir Hossain](Doctor_name)
+    - provide me the information of  [Dr. Mohammad Zakir Hossain](Doctor_name)
+    - [Dr. Mohammad Zakir Hossain](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Nurul Alam Talukder ](Doctor_name)
+    - what is the address of [Prof. Dr. Nurul Alam Talukder ](Doctor_name)
+    - give me information [Prof. Dr. Nurul Alam Talukder ](Doctor_name)
+    - provide me the information of [Prof. Dr. Nurul Alam Talukder ](Doctor_name)
+    - [Prof. Dr. Nurul Alam Talukder ](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. KMHS Sirajul Haque](Doctor_name)
+    - what is the address of [Prof. Dr. KMHS Sirajul Haque](Doctor_name)
+    - give me information [Prof. Dr. KMHS Sirajul Haque](Doctor_name)
+    - provide me the information of [Prof. Dr. KMHS Sirajul Haque](Doctor_name)
+    - [Prof. Dr. KMHS Sirajul Haque](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Azizul Bari](Doctor_name)
+    - what is the address of [Prof. Dr. Azizul Bari](Doctor_name)
+    - give me information [Prof. Dr. Azizul Bari](Doctor_name)
+    - provide me the information of [Prof. Dr. Azizul Bari](Doctor_name)
+    - [Prof. Dr. Azizul Bari](Doctor_name)
+
+    - can I get the address  of  [Dr. Md. Arif Hossain](Doctor_name)
+    - what is the address of [Dr. Md. Arif Hossain](Doctor_name)
+    - give me information [Dr. Md. Arif Hossain](Doctor_name)
+    - provide me the information of [Dr. Md. Arif Hossain](Doctor_name)
+    - [Dr. Md. Arif Hossain](Doctor_name)
+
+    - can I get the address  of  [Dr. Khalifa Mahmud Tarik](Doctor_name)
+    - what is the address of [Dr. Khalifa Mahmud Tarik](Doctor_name)
+    - give me information [Dr. Khalifa Mahmud Tarik](Doctor_name)
+    - provide me the information of [Dr. Khalifa Mahmud Tarik](Doctor_name)
+    - [Dr. Khalifa Mahmud Tarik](Doctor_name)
+
+    - can I get the address  of  [Dr. Md. Shaukat Ali](Doctor_name)
+    - what is the address of [Dr. Md. Shaukat Ali](Doctor_name)
+    - give me information [Dr. Md. Shaukat Ali](Doctor_name)
+    - provide me the information of [Dr. Md. Shaukat Ali](Doctor_name)
+    - [Dr. Md. Shaukat Ali](Doctor_name)
+
+    - can I get the address  of  [Dr. Md. Lokman Hossain](Doctor_name)
+    - what is the address of [Dr. Md. Lokman Hossain](Doctor_name)
+    - give me information [Dr. Md. Lokman Hossain](Doctor_name)
+    - provide me the information of [Dr. Md. Lokman Hossain](Doctor_name)
+    - [Dr. Md. Lokman Hossain](Doctor_name)
+
+    - can I get the address  of  [Dr. Amirul Islam Bhuyan](Doctor_name)
+    - what is the address of [Dr. Amirul Islam Bhuyan](Doctor_name)
+    - give me information [Dr. Amirul Islam Bhuyan](Doctor_name)
+    - provide me the information of [Dr. Amirul Islam Bhuyan](Doctor_name)
+    - [Dr. Amirul Islam Bhuyan](Doctor_name)
+
+    - can I get the address  of  [Dr. Nurun Nahar Fatema Begum](Doctor_name)
+    - what is the address of [Dr. Nurun Nahar Fatema Begum](Doctor_name)
+    - give me information [Dr. Nurun Nahar Fatema Begum](Doctor_name)
+    - provide me the information of [Dr. Nurun Nahar Fatema Begum](Doctor_name)
+    - [Dr. Nurun Nahar Fatema Begum](Doctor_name)
+
+    - can I get the address  of  [Dr. Akhter Hamid Parvez](Doctor_name)
+    - what is the address of [Dr. Akhter Hamid Parvez](Doctor_name)
+    - give me information [Dr. Akhter Hamid Parvez](Doctor_name)
+    - provide me the information of [Dr. Akhter Hamid Parvez](Doctor_name)
+    - [Dr. Akhter Hamid Parvez](Doctor_name)
+
+    - can I get the address  of  [Dr. Arun Kumar Sharma](Doctor_name)
+    - what is the address of [Dr. Arun Kumar Sharma](Doctor_name)
+    - give me information [Dr. Arun Kumar Sharma](Doctor_name)
+    - provide me the information of [Dr. Arun Kumar Sharma](Doctor_name)
+    - [Dr. Arun Kumar Sharma](Doctor_name)
+
+    - can I get the address  of  [Dr. Kamal Pasha](Doctor_name)
+    - what is the address of [Dr. Kamal Pasha](Doctor_name)
+    - give me information [Dr. Kamal Pasha](Doctor_name)
+    - provide me the information of [Dr. Kamal Pasha](Doctor_name)
+    - [Dr. Kamal Pasha](Doctor_name)
+
+    - can I get the address  of  [Dr. SM Shahedul Amin Robin](Doctor_name)
+    - what is the address of [Dr. SM Shahedul Amin Robin](Doctor_name)
+    - give me information [Dr. SM Shahedul Amin Robin](Doctor_name)
+    - provide me the information of [Dr. SM Shahedul Amin Robin](Doctor_name)
+    - [Dr. SM Shahedul Amin Robin](Doctor_name)
+
+    - can I get the address  of  [Dr. Asif Manwar](Doctor_name)
+    - what is the address of [Dr. Asif Manwar](Doctor_name)
+    - give me information [Dr. Asif Manwar](Doctor_name)
+    - provide me the information of [Dr. Asif Manwar](Doctor_name)
+    - [Dr. Asif Manwar](Doctor_name)
+
+    - can I get the address  of  [Dr. Nirmal Kanti Dey](Doctor_name)
+    - what is the address of [Dr. Nirmal Kanti Dey](Doctor_name)
+    - give me information [Dr. Nirmal Kanti Dey](Doctor_name)
+    - provide me the information of [Dr. Nirmal Kanti Deyppp](Doctor_name)
+    - [Dr. Nirmal Kanti Dey](Doctor_name)
+
+    - can I get the address  of  [Dr. Md. Zakir Hossain](Doctor_name)
+    - what is the address of [Dr. Md. Zakir Hossain](Doctor_name)
+    - give me information [Dr. Md. Zakir Hossain](Doctor_name)
+    - provide me the information of [Dr. Md. Zakir Hossain](Doctor_name)
+    - [Dr. Md. Zakir Hossain](Doctor_name)
+
+    - can I get the address  of  [Dr. Rakibul Hasan Apu](Doctor_name)
+    - what is the address of [Dr. Rakibul Hasan Apu](Doctor_name)
+    - give me information [Dr. Rakibul Hasan Apu](Doctor_name)
+    - provide me the information of [Dr. Rakibul Hasan Apu](Doctor_name)
+    - [Dr. Rakibul Hasan Apu](Doctor_name)
+
+    - can I get the address  of  [Dr. Fatema Begum](Doctor_name)
+    - what is the address of [Dr. Fatema Begum](Doctor_name)
+    - give me information [Dr. Fatema Begum](Doctor_name)
+    - provide me the information of [Dr. Fatema Begum](Doctor_name)
+    - [Dr. Fatema Begum](Doctor_name)
+
+    - can I get the address  of  [Dr. Rezaul Hassan](Doctor_name)
+    - what is the address of [Dr. Rezaul Hassan](Doctor_name)
+    - give me information [Dr. Rezaul Hassan](Doctor_name)
+    - provide me the information of [Dr. Rezaul Hassan](Doctor_name)
+    - [Dr. Rezaul Hassan](Doctor_name)
+
+    - can I get the address  of  [Dr. A. M. Shafique](Doctor_name)
+    - what is the address of [Dr. A. M. Shafique](Doctor_name)
+    - give me information [Dr. A. M. Shafique](Doctor_name)
+    - provide me the information of [Dr. A. M. Shafique](Doctor_name)
+    - [Dr. A. M. Shafique](Doctor_name)
+
+    - can I get the address  of  [PROF. Dr. M.A.K. AZAD CHOWDHURY](Doctor_name)
+    - what is the address of [PROF. Dr. M.A.K. AZAD CHOWDHURY](Doctor_name)
+    - give me information [PROF. Dr. M.A.K. AZAD CHOWDHURY](Doctor_name)
+    - provide me the information of [PROF. Dr. M.A.K. AZAD CHOWDHURY](Doctor_name)
+    - [PROF. Dr. M.A.K. AZAD CHOWDHURY](Doctor_name)
+
+    - can I get the address  of  [Prof. Chowdhury Md. Haider Ali](Doctor_name)
+    - what is the address of [Prof. Chowdhury Md. Haider Ali](Doctor_name)
+    - give me information [Prof. Chowdhury Md. Haider Ali](Doctor_name)
+    - provide me the information of [Prof. Chowdhury Md. Haider Ali](Doctor_name)
+    - [Prof. Chowdhury Md. Haider Ali](Doctor_name)
+
+    - can I get the address  of  [Dr. Sultan Ahmed](Doctor_name)
+    - what is the address of [Dr. Sultan Ahmed](Doctor_name)
+    - give me information [Dr. Sultan Ahmed](Doctor_name)
+    - provide me the information of [Dr. Sultan Ahmed](Doctor_name)
+    - [Dr. Sultan Ahmed](Doctor_name)
+
+    - can I get the address  of  [Dr. Mohammad Abdul Hai](Doctor_name)
+    - what is the address of [Dr. Mohammad Abdul Hai](Doctor_name)
+    - give me information [Dr. Mohammad Abdul Hai](Doctor_name)
+    - provide me the information of [Dr. Mohammad Abdul Hai](Doctor_name)
+    - [Dr. Mohammad Abdul Hai](Doctor_name)
+
+    - can I get the address  of  [Dr. Kazi Md. Noor-Ul Ferdous](Doctor_name)
+    - what is the address of [Dr. Kazi Md. Noor-Ul Ferdous](Doctor_name)
+    - give me information [Dr. Kazi Md. Noor-Ul Ferdous](Doctor_name)
+    - provide me the information of [Dr. Kazi Md. Noor-Ul Ferdous](Doctor_name)
+    - [Dr. Kazi Md. Noor-Ul Ferdous](Doctor_name)
+
+    - can I get the address  of  [Dr. Mahbubul Alam](Doctor_name)
+    - what is the address of [Dr. Mahbubul Alam](Doctor_name)
+    - give me information [Dr. Mahbubul Alam](Doctor_name)
+    - provide me the information of [Dr. Mahbubul Alam](Doctor_name)
+    - [Dr. Mahbubul Alam](Doctor_name)
+
+    - can I get the address  of  [Dr. Ahmed Zahid Hossain](Doctor_name)
+    - what is the address of [Dr. Ahmed Zahid Hossain](Doctor_name)
+    - give me information [Dr. Ahmed Zahid Hossain](Doctor_name)
+    - provide me the information of [Dr. Ahmed Zahid Hossain](Doctor_name)
+    - [Dr. Ahmed Zahid Hossain](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Abdul Hanif (Tablu)](Doctor_name)
+    - what is the address of [Prof. Dr. Abdul Hanif (Tablu)](Doctor_name)
+    - give me information [Prof. Dr. Abdul Hanif (Tablu)](Doctor_name)
+    - provide me the information of [pProf. Dr. Abdul Hanif (Tablu)pp](Doctor_name)
+    - [Prof. Dr. Abdul Hanif (Tablu)](Doctor_name)
+
+    - can I get the address  of  [Dr. Amina Akter](Doctor_name)
+    - what is the address of [Dr. Amina Akter](Doctor_name)
+    - give me information [Dr. Amina Akter](Doctor_name)
+    - provide me the information of [Dr. Amina Akter](Doctor_name)
+    - [Dr. Amina Akter](Doctor_name)
+
+    - can I get the address  of  [Dr. Musrat Rahman Deeba](Doctor_name)
+    - what is the address of [Dr. Musrat Rahman Deeba](Doctor_name)
+    - give me information [Dr. Musrat Rahman Deeba](Doctor_name)
+    - provide me the information of [Dr. Musrat Rahman Deeba](Doctor_name)
+    - [Dr. Musrat Rahman Deeba](Doctor_name)
+
+    - can I get the address  of  [Dr. Mahmuda Zaman](Doctor_name)
+    - what is the address of [Dr. Mahmuda Zaman](Doctor_name)
+    - give me information [Dr. Mahmuda Zaman](Doctor_name)
+    - provide me the information of [Dr. Mahmuda Zaman](Doctor_name)
+    - [Dr. Mahmuda Zaman](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. ABM Abdus Salam](Doctor_name)
+    - what is the address of [Prof. Dr. ABM Abdus Salam](Doctor_name)
+    - give me information [Prof. Dr. ABM Abdus Salam](Doctor_name)
+    - provide me the information of [Prof. Dr. ABM Abdus Salam](Doctor_name)
+    - [Prof. Dr. ABM Abdus Salam](Doctor_name)
+
+    - can I get the address  of  [Dr. Lutfun Nahar Begum](Doctor_name)
+    - what is the address of [Dr. Lutfun Nahar Begum](Doctor_name)
+    - give me information [Dr. Lutfun Nahar Begum](Doctor_name)
+    - provide me the information of [Dr. Lutfun Nahar Begum](Doctor_name)
+    - [Dr. Lutfun Nahar Begum](Doctor_name)
+
+    - can I get the address  of  [Dr. Rumana Choudhury](Doctor_name)
+    - what is the address of [Dr. Rumana Choudhury](Doctor_name)
+    - give me information [Dr. Rumana Choudhury](Doctor_name)
+    - provide me the information of [Dr. Rumana Choudhury](Doctor_name)
+    - [Dr. Rumana Choudhury](Doctor_name)
+
+    - can I get the address  of  [Dr. Tahmina Karim](Doctor_name)
+    - what is the address of [Dr. Tahmina Karim](Doctor_name)
+    - give me information [Dr. Tahmina Karim](Doctor_name)
+    - provide me the information of [Dr. Tahmina Karim](Doctor_name)
+    - [Dr. Tahmina Karim](Doctor_name)
+
+    - can I get the address  of  [Dr. Shahin Akter](Doctor_name)
+    - what is the address of [Dr. Shahin Akter](Doctor_name)
+    - give me information [Dr. Shahin Akter](Doctor_name)
+    - provide me the information of [Dr. Shahin Akter](Doctor_name)
+    - [Dr. Shahin Akter](Doctor_name)(Doctor_name)
+
+    - can I get the address  of  [Dr. Kaniz Hasina](Doctor_name)
+    - what is the address of [Dr. Kaniz Hasina](Doctor_name)
+    - give me information [Dr. Kaniz Hasina](Doctor_name)
+    - provide me the information of [Dr. Kaniz Hasina](Doctor_name)
+    - [Dr. Kaniz Hasina](Doctor_name)(Doctor_name)
+
+    - can I get the address  of  [Dr. Prof. Md. Salim Shakur PhD](Doctor_name)
+    - what is the address of [Dr. Prof. Md. Salim Shakur PhD](Doctor_name)
+    - give me information [Dr. Prof. Md. Salim Shakur PhD](Doctor_name)
+    - provide me the information of [Dr. Prof. Md. Salim Shakur PhD](Doctor_name)
+    - [Dr. Prof. Md. Salim Shakur PhD](Doctor_name)(Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Md. Ehteshamul Hoque](Doctor_name)
+    - what is the address of [Prof. Dr. Md. Ehteshamul Hoque](Doctor_name)
+    - give me information [Prof. Dr. Md. Ehteshamul Hoque](Doctor_name)
+    - provide me the information of [Prof. Dr. Md. Ehteshamul Hoque](Doctor_name)
+    - [Prof. Dr. Md. Ehteshamul Hoque](Doctor_name)
+
+    - can I get the address  of  [Dr. M Safiul Alam](Doctor_name)
+    - what is the address of [Dr. M Safiul Alam](Doctor_name)
+    - give me information [Dr. M Safiul Alam](Doctor_name)
+    - provide me the information of [Dr. M Safiul Alam](Doctor_name)
+    - [Dr. M Safiul Alam](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Qamruzzaman Chowdhury](Doctor_name)
+    - what is the address of [Prof. Dr. Qamruzzaman Chowdhury](Doctor_name)
+    - give me information [Prof. Dr. Qamruzzaman Chowdhury](Doctor_name)
+    - provide me the information of [Prof. Dr. Qamruzzaman Chowdhury](Doctor_name)
+    - [Prof. Dr. Qamruzzaman Chowdhury](Doctor_name)
+
+    - can I get the address  of  [Dr. Ferdous Ara Begum](Doctor_name)
+    - what is the address of [Dr. Ferdous Ara Begum](Doctor_name)
+    - give me information [Dr. Ferdous Ara Begum](Doctor_name)
+    - provide me the information of [Dr. Ferdous Ara Begum](Doctor_name)
+    - [Dr. Ferdous Ara Begum](Doctor_name)
+
+    - can I get the address  of  [Dr. Md. Arifur Rahman](Doctor_name)
+    - what is the address of [Dr. Md. Arifur Rahman](Doctor_name)
+    - give me information [Dr. Md. Arifur Rahman](Doctor_name)
+    - provide me the information of [Dr. Md. Arifur Rahman](Doctor_name)
+    - [Dr. Md. Arifur Rahman](Doctor_name)
+
+    - can I get the address  of  [Dr. A.F.M. Kamal Uddin](Doctor_name)
+    - what is the address of [Dr. A.F.M. Kamal Uddin](Doctor_name)
+    - give me information [Dr. A.F.M. Kamal Uddin](Doctor_name)
+    - provide me the information of [Dr. A.F.M. Kamal Uddin](Doctor_name)
+    - [Dr. A.F.M. Kamal Uddin](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Qazi Mushtaq Hussain](Doctor_name)
+    - what is the address of [Prof. Dr. Qazi Mushtaq Hussain](Doctor_name)
+    - give me information [Prof. Dr. Qazi Mushtaq Hussain](Doctor_name)
+    - provide me the information of [Prof. Dr. Qazi Mushtaq Hussain](Doctor_name)
+    - [Prof. Dr. Qazi Mushtaq Hussain](Doctor_name)
+
+    - can I get the address  of  [Dr. Arunangshu Das](Doctor_name)
+    - what is the address of [Dr. Arunangshu Das](Doctor_name)
+    - give me information [Dr. Arunangshu Das](Doctor_name)
+    - provide me the information of [Dr. Arunangshu Das](Doctor_name)
+    - [Dr. Arunangshu Das](Doctor_name)
+
+    - can I get the address  of  [Dr. Md. Salim Reza](Doctor_name)
+    - what is the address of [Dr. Md. Salim Reza](Doctor_name)
+    - give me information [Dr. Md. Salim Reza](Doctor_name)
+    - provide me the information of [Dr. Md. Salim Reza](Doctor_name)
+    - [Dr. Md. Salim Reza](Doctor_name)
+
+    - can I get the address  of  [Prof. Syed Md. Akram Hussain](Doctor_name)
+    - what is the address of [Prof. Syed Md. Akram Hussain](Doctor_name)
+    - give me information [Prof. Syed Md. Akram Hussain](Doctor_name)
+    - provide me the information of [Prof. Syed Md. Akram Hussain](Doctor_name)
+    - [Prof. Syed Md. Akram Hussain](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Zafor Md. Masum](Doctor_name)
+    - what is the address of [Prof. Dr. Zafor Md. Masum](Doctor_name)
+    - give me information [Prof. Dr. Zafor Md. Masum](Doctor_name)
+    - provide me the information of [Prof. Dr. Zafor Md. Masum](Doctor_name)
+    - [Prof. Dr. Zafor Md. Masum](Doctor_name)
+
+    - can I get the address  of  [Dr. Rashid Un Nabi](Doctor_name)
+    - what is the address of [Dr. Rashid Un Nabi](Doctor_name)
+    - give me information [Dr. Rashid Un Nabi](Doctor_name)
+    - provide me the information of [Dr. Rashid Un Nabi](Doctor_name)
+    - [Dr. Rashid Un Nabi](Doctor_name)
+
+    - can I get the address  of  [Dr. Ashim Kumar Sengupta](Doctor_name)
+    - what is the address of [Dr. Ashim Kumar Sengupta](Doctor_name)
+    - give me information [Dr. Ashim Kumar Sengupta](Doctor_name)
+    - provide me the information of [Dr. Ashim Kumar Sengupta](Doctor_name)
+    - [Dr. Ashim Kumar Sengupta](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. M Touhidul Haque](Doctor_name)
+    - what is the address of [Prof. Dr. M Touhidul Haque](Doctor_name)
+    - give me information [Prof. Dr. M Touhidul Haque](Doctor_name)
+    - provide me the information of [Prof. Dr. M Touhidul Haque](Doctor_name)
+    - [Prof. Dr. M Touhidul Haque](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Ashok Datta](Doctor_name)
+    - what is the address of [Prof. Dr. Ashok Datta](Doctor_name)
+    - give me information [Prof. Dr. Ashok Datta](Doctor_name)
+    - provide me the information of [Prof. Dr. Ashok Datta](Doctor_name)
+    - [Prof. Dr. Ashok Datta](Doctor_name)
+
+    - can I get the address  of  [Dr. Mohsin Ahmed](Doctor_name)
+    - what is the address of [Dr. Mohsin Ahmed](Doctor_name)
+    - give me information [Dr. Mohsin Ahmed](Doctor_name)
+    - provide me the information of [Dr. Mohsin Ahmed](Doctor_name)
+    - [Dr. Mohsin Ahmed](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Toufiqur Rahman Faruque](Doctor_name)
+    - what is the address of [Prof. Dr. Toufiqur Rahman Faruque](Doctor_name)
+    - give me information [Prof. Dr. Toufiqur Rahman Faruque](Doctor_name)
+    - provide me the information of [Prof. Dr. Toufiqur Rahman Faruque](Doctor_name)
+    - [Prof. Dr. Toufiqur Rahman Faruque](Doctor_name)
+
+    - can I get the address  of  [Dr. Dhiman Banik](Doctor_name)
+    - what is the address of [Dr. Dhiman Banik](Doctor_name)
+    - give me information [Dr. Dhiman Banik](Doctor_name)
+    - provide me the information of [Dr. Dhiman Banik](Doctor_name)
+    - [Dr. Dhiman Banik](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Md. Abdul Mannan](Doctor_name)
+    - what is the address of [Prof. Dr. Md. Abdul Mannan](Doctor_name)
+    - give me information [Prof. Dr. Md. Abdul Mannan](Doctor_name)
+    - provide me the information of [Prof. Dr. Md. Abdul Mannan](Doctor_name)
+    - [Prof. Dr. Md. Abdul Mannan](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Tahmina Begum](Doctor_name)
+    - what is the address of [Prof. Dr. Tahmina Begum](Doctor_name)
+    - give me information [Prof. Dr. Tahmina Begum](Doctor_name)
+    - provide me the information of [Prof. Dr. Tahmina Begum](Doctor_name)
+    - [Prof. Dr. Tahmina Begum](Doctor_name)
+
+    - can I get the address  of  [Dr. Gopen Kumar Kundu](Doctor_name)
+    - what is the address of [Dr. Gopen Kumar Kundu](Doctor_name)
+    - give me information [Dr. Gopen Kumar Kundu](Doctor_name)
+    - provide me the information of [Dr. Gopen Kumar Kundu](Doctor_name)
+    - [Dr. Gopen Kumar Kundu](Doctor_name)
+
+    - can I get the address  of  [Dr. Kaniz Fatema](Doctor_name)
+    - what is the address of [Dr. Kaniz Fatema](Doctor_name)
+    - give me information [Dr. Kaniz Fatema](Doctor_name)
+    - provide me the information of [Dr. Kaniz Fatema](Doctor_name)
+    - [Dr. Kaniz Fatema](Doctor_name)
+
+    - can I get the address  of  [Prof. Dr. Jahangir Alam](Doctor_name)
+    - what is the address of [Prof. Dr. Jahangir Alam](Doctor_name)
+    - give me information [Prof. Dr. Jahangir Alam](Doctor_name)
+    - provide me the information of [Prof. Dr. Jahangir Alam](Doctor_name)
+    - [Prof. Dr. Jahangir Alam](Doctor_name)
+
+    - can I get the address  of  [Prof.Dr. Md. Moarraf hossen](Doctor_name)
+    - what is the address of [Prof.Dr. Md. Moarraf hossen](Doctor_name)
+    - give me information [Prof.Dr. Md. Moarraf hossen](Doctor_name)
+    - provide me the information of [Prof.Dr. Md. Moarraf hossen](Doctor_name)
+    - [Prof.Dr. Md. Moarraf hossen](Doctor_name)
+
+    - can I get the address  of  [Prof.Dr.sahana parvin](Doctor_name)
+    - what is the address of [Prof.Dr.sahana parvin](Doctor_name)
+    - give me information [Prof.Dr.sahana parvin](Doctor_name)
+    - provide me the information of [Prof.Dr.sahana parvin](Doctor_name)
+    - [Prof.Dr.sahana parvin](Doctor_name)
+
+    - can I get the address  of  [prof.Dr.Md. Mofazzel Hossain](Doctor_name)
+    - what is the address of [prof.Dr.Md. Mofazzel Hossain](Doctor_name)
+    - give me information [prof.Dr.Md. Mofazzel Hossain](Doctor_name)
+    - provide me the information of [prof.Dr.Md. Mofazzel Hossain](Doctor_name)
+    - [prof.Dr.Md. Mofazzel Hossain](Doctor_name)
+
+    - can I get the address  of  [prof.dr.swapan Bandyopadhyay](Doctor_name)
+    - what is the address of [prof.dr.swapan Bandyopadhyay](Doctor_name)
+    - give me information [prof.dr.swapan Bandyopadhyay](Doctor_name)
+    - provide me the information of [prof.dr.swapan Bandyopadhyay](Doctor_name)
+    - [prof.dr.swapan Bandyopadhyay](Doctor_name)
+
+
+- intent: doctors_search_by_cardiac
+  examples: |
+    - Will you a suggest me [cardiac](problem_type) specialist
+    - [cardiac](problem_type) doctor
+    - good [cardiac](problem_type) doctor
+    - Give me a name of [cardiac](problem_type) doctor
+    - suggest me some [cardiac](problem_type) specialist
+
+- intent: doctors_search_by_child
+  examples: |
+    - Will you a suggest me [child](problem_type) specialist
+    - [child](problem_type)doctor
+    - good [child](problem_type) doctor
+    - Give me a name of [child](problem_type) doctor
+    - suggest me some [child](problem_type) specialist
+
+- intent: doctors_search_by_cancer
+  examples: |
+    - Will you a suggest me [cancer](problem_type) specialist
+    - [cancer](problem_type)doctor
+    - good [cancer](problem_type) doctor
+    - Give me a name of [cancer](problem_type) doctor
+    - suggest me some [cancer](problem_type) specialist
+

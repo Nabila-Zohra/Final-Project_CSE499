@@ -1,0 +1,131 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: get_introduction
+  - action: utter_introduction
+
+
+- story: hospital information path 1
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: hospital_search_by_area
+    - action: action_hospital_search_by_area
+    - intent: Hospital_address
+    - action: action_Hospital_address
+
+- story: hospital information path 2
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: hospital_search_by_area
+    - action: action_hospital_search_by_area
+    - intent: Hospital_wise_heart_specialist_search
+    - action: action_heart_wise_hospital_search
+    - intent: doctors_search_by_name
+    - action: action_doctors_search_by_name
+
+- story: hospital information path 3
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: hospital_search_by_area
+    - action: action_hospital_search_by_area
+    - intent: hospital_wise_cancer_specialist_search
+    - action: action_cancer_wise_hospital_search
+    - intent: doctors_search_by_name
+    - action: action_doctors_search_by_name
+
+- story: hospital information path 4
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: hospital_search_by_area
+    - action: action_hospital_search_by_area
+    - intent: hospital_wise_child_specialist_search
+    - action: action_child_wise_hospital_search
+    - intent: doctors_search_by_name
+    - action: action_doctors_search_by_name
+
+- story: hospital information path 5
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: hospital_search_by_disease
+    - action: action_Hospital_address
+    - intent: Hospital_address
+    - action: action_Hospital_address
+
+
+
+- story: doctor information path 1
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: doctors_search_by_cardiac
+    - action: action_doctors_search_by_cardiac
+    - intent: doctors_search_by_name
+    - action: action_doctors_search_by_name
+
+- story: doctor information path 2
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: doctors_search_by_child
+    - action: action_doctors_search_by_child
+    - intent: doctors_search_by_name
+    - action: action_doctors_search_by_name
+
+- story: doctor information path 3
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: doctors_search_by_cancer
+    - action: action_doctors_search_by_cancer
+    - intent: doctors_search_by_name
+    - action: action_doctors_search_by_name
+
+
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+#- story: hospital heart specialist
+#  steps:
+
+
+
+#- story: hospital cancer specialist
+#  steps:
+# - intent: hospital_wise_cancer_specialist_search
+ #- action: action_cancer_wise_hospital_search
+
+
+#- story: hospital child specialist
+#  steps:
+#  - intent: hospital_wise_child_specialist_search
+ # - action: action_child_wise_hospital_search

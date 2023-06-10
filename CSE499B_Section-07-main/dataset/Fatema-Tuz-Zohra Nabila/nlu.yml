@@ -1,0 +1,396 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: Hospital_wise_heart_specialist_search
+  examples: |
+    - Is there any heart specialist in [AMZ Hospital](heart) 
+    - will you a suggest me heart doctor in [AMZ Hospital](heart) 
+    - heart doctor in [AMZ Hospital](heart) 
+    - good heart doctor in [AMZ Hospital](heart) 
+    - Give me a name of heart doctor in [AMZ Hospital](heart) 
+    - heart Specialist in [AMZ Hospital](heart) 
+    - will you a suggest me heart specialist in [AMZ Hospital](heart)  
+    - heart doctor in [AMZ Hospital](heart) 
+
+    - Is there any heart specialist in [Al-Manar Hospital](heart) 
+    - will you a suggest me heart doctor in [Al-Manar Hospital](heart) 
+    - heart doctor in [Al-Manar Hospital](heart) 
+    - good heart doctor in [Al-Manar Hospital](heart) 
+    - Give me a name of heart doctor in [Al-Manar Hospital](heart) 
+    - heart Specialist in [Al-Manar Hospital](heart) 
+    - will you a suggest me heart specialist in [Al-Manar Hospital](heart) 
+    - heart doctor in [Al-Manar Hospital](heart) 
+
+    - Is there any heart specialist in [City Hospital](heart) 
+    - will you a suggest me heart specialist in [City Hospital](heart) 
+    - heart doctor in [City Hospital](heart) 
+    - good heart doctor in [City Hospital](heart) 
+    - Give me a name of heart doctor in [City Hospital](heart) 
+    - heart Specialist in [City Hospital](heart) 
+    - heart doctor in [City Hospital](heart) 
+
+    - Is there any heart specialist in [Dhaka Central Medical College](heart) 
+    - will you a suggest me heart specialist in [Dhaka Central Medical College](heart) 
+    - heart doctor in [Dhaka Central Medical College](heart) 
+    - good heart doctor in [Dhaka Central Medical College](heart) 
+    - Give me a name of heart doctor in [Dhaka Central Medical College](heart) 
+    - heart Specialist in [Dhaka Central Medical College](heart) 
+    - heart doctor in [Dhaka Central Medical College](heart) 
+
+    - Is there any heart specialist in [Bangladesh Specialized Hospital](heart) 
+    - will you a suggest me heart specialist in [Bangladesh Specialized Hospital](heart) 
+    - heart doctor in [Bangladesh Specialized Hospital](heart) 
+    - good heart doctor in [Bangladesh Specialized Hospital](heart) 
+    - Give me a name of heart doctor in [Bangladesh Specialized Hospital](heart) 
+    - heart Specialist in [Bangladesh Specialized Hospital](heart) 
+    - heart doctor in [Bangladesh Specialized Hospital](heart) 
+
+    - Is there any heart specialist in [Labaid Hospital](heart) 
+    - will you a suggest me heart specialist in  [Labaid Hospital](heart) 
+    - heart doctor in [Labaid Hospital](heart) 
+    - good heart doctor in [Labaid Hospital](heart) 
+    - Give me a name of heart doctor in [Labaid Hospital](heart) 
+    - heart Specialist in [Labaid Hospital](heart) 
+    - heart doctor in [Labaid Hospital](heart) 
+
+    - Is there any heart specialist in [Square Hospital](heart) 
+    - will you a suggest me heart specialist in [Square Hospital](heart) 
+    - heart doctor in [Square Hospital](heart) 
+    - good heart doctor in [Square Hospital](heart) 
+    - Give me a name of heart doctor in [Square Hospital](heart) 
+    - heart Specialist in [Square Hospital](heart) 
+    - heart doctor in [Square Hospital](heart) 
+
+    - Is there any heart specialist in [Ibn Sina](heart) 
+    - will you a suggest me heart specialist in [Ibn Sina](heart) 
+    - heart doctor in [Ibn Sina](heart) 
+    - good heart doctor in [Ibn Sina](heart) 
+    - Give me a name of heart doctor in [Ibn Sina](heart) 
+    - heart Specialist in [Ibn Sina](heart) 
+    - heart doctor in [Ibn Sina](heart) 
+
+    - Is there any heart specialist in [Medinova Hospital](heart) 
+    - will you a suggest me heart specialist in [Medinova Hospital](heart) 
+    - heart doctor in [Medinova Hospital](heart) 
+    - good heart doctor in [Medinova Hospital](heart) 
+    - Give me a name of heart doctor in [Medinova Hospital](heart) 
+    - heart Specialist in [Medinova Hospital](heart)  
+    - heart doctor in [Medinova Hospital](heart) 
+
+    - Is there any heart specialist in [United Hospital](heart) 
+    - will you a suggest me heart specialist in [United Hospital](heart) 
+    - heart doctor in [United Hospital](heart) 
+    - good heart doctor in [United Hospital](heart) 
+    - Give me a name of heart doctor in [United Hospital](heart) 
+    - heart Specialist in [United Hospital](heart) 
+    - heart doctor in [United Hospital](heart) 
+
+
+
+- intent: hospital_wise_cancer_specialist_search
+  examples: |
+
+    - Is there any cancer specialist in [Al-Manar Hospital](cancer) 
+    - will you a suggest me cancer specialist in [Al-Manar Hospital](cancer) 
+    - cancer doctor in [Al-Manar Hospital](cancer) 
+    - good cancer doctor in [Al-Manar Hospital](cancer) 
+    - Give me a name of cancer doctor in [Al-Manar Hospital](cancer) 
+
+
+
+
+    - Is there any cancer specialist in [City Hospital](cancer) 
+    - will you a suggest me cancer specialist in [City Hospital](cancer) 
+    - cancer doctor in [City Hospital](cancer) 
+    - good cancer doctor in [City Hospital](cancer) 
+    - Give me a name of cancer doctor in [City Hospital](cancer) 
+
+
+
+
+    - Is there any cancer specialist in [Dhaka Central Medical College](cancer) 
+    - will you a suggest me cancer specialist in [Dhaka Central Medical College](cancer) 
+    - cancer doctor in [Dhaka Central Medical College](cancer) 
+    - good cancer doctor in [Dhaka Central Medical College](cancer) 
+    - Give me a name of cancer doctor in [Dhaka Central Medical College](cancer) 
+
+
+
+
+    - Is there any cancer specialist in [Bangladesh Specialized Hospital](cancer) 
+    - will you a suggest me cancer specialist in [Bangladesh Specialized Hospital](cancer) 
+    - cancer doctor in [Bangladesh Specialized Hospital](cancer) 
+    - good cancer doctor in [Bangladesh Specialized Hospital](cancer) 
+    - Give me a name of cancer doctor in [Bangladesh Specialized Hospital](cancer) 
+
+
+
+
+
+    - Is there any cancer specialist in [Labaid Hospital](cancer) 
+    - will you a suggest me cancer specialist in [Labaid Hospital](cancer) 
+    - cancer doctor in [Labaid Hospital](cancer) 
+    - good cancer doctor in [Labaid Hospital](cancer) 
+    - Give me a name of cancer doctor in [Labaid Hospital](cancer) 
+
+
+    - Is there any cancer specialist in [Square Hospital](cancer) 
+    - will you a suggest me cancer specialist in [Square Hospital](cancer) 
+    - cancer doctor in [Square Hospital](cancer) 
+    - good cancer doctor in [Square Hospital](cancer) 
+    - Give me a name of cancer doctor in [Square Hospital](cancer) 
+
+
+
+
+    - Is there any cancer specialist in [Ibn Sina](cancer) 
+    - will you a suggest me cancer specialist in [Ibn Sina](cancer) 
+    - cancer doctor in [Ibn Sina](cancer) 
+    - good cancer doctor in [Ibn Sina](cancer) 
+    - Give me a name of cancer doctor in [Ibn Sina](cancer) 
+
+
+
+
+
+    - Is there any cancer specialist in [Medinova Hospital](cancer) 
+    - will you a suggest me cancer specialist in [Medinova Hospital](cancer) 
+    - cancer doctor in [Medinova Hospital](cancer) 
+    - good cancer doctor in [Medinova Hospital](cancer) 
+    - Give me a name of cancer doctor in [Medinova Hospital](cancer) 
+
+
+
+    - Is there any cancer specialist in [United Hospital](cancer) 
+    - will you a suggest me cancer specialist in [United Hospital](cancer) 
+    - cancer doctor in [United Hospital](cancer) 
+    - good cancer doctor in [United Hospital](cancer) 
+    - Give me a name of cancer doctor in [United Hospital](cancer) 
+
+
+
+
+
+
+
+
+- intent: hospital_wise_child_specialist_search
+  examples: |
+
+    - Is there any child specialist in [Al-Manar Hospital](child) 
+    - will you a suggest me child specialist in [Al-Manar Hospital](child) 
+    - child doctor in [Al-Manar Hospital](child) 
+    - good child doctor in [Al-Manar Hospital](child) 
+    - Give me a name of child doctor in [Al-Manar Hospital](child) 
+    - child doctor in [Al-Manar Hospital](child) 
+    - will you a suggest me child doctor in [Al-Manar Hospital](child) 
+    - Give me a name of child doctor in [Al-Manar Hospital](child) 
+    - good child doctor in [Al-Manar Hospital](child) 
+    - child doctor in [Al-Manar Hospital](child) 
+
+
+
+
+
+    - Is there any child specialist in [City Hospital](child) 
+    - will you a suggest me child specialist in [City Hospital](child) 
+    - child doctor in [City Hospital](child) 
+    - good child doctor in [City Hospital](child) 
+    - Give me a name of child doctor in [City Hospital](child) 
+    - child doctor in [City Hospital](child) 
+    - will you a suggest me child doctor in [City Hospital](child) 
+    - Give me a name of child doctor in [City Hospital](child) 
+    - good child doctor in [City Hospital](child) 
+    - child doctor in [City Hospital](child) 
+
+
+
+
+
+    - Is there any child specialist in [Dhaka Central Medical College](child) 
+    - will you a suggest me child specialist in [Dhaka Central Medical College](child) 
+    - child doctor in [Dhaka Central Medical College](child) 
+    - good child doctor in [Dhaka Central Medical College](child) 
+    - Give me a name of child doctor in [Dhaka Central Medical College](child) 
+    - child doctor in [Dhaka Central Medical College](child) 
+    - will you a suggest me child doctor in [Dhaka Central Medical College](child) 
+    - Give me a name of child doctor in [Dhaka Central Medical College](child) 
+    - good child doctor in [Dhaka Central Medical College](child) 
+    - child doctor in [Dhaka Central Medical College](child) 
+
+
+
+
+
+    - Is there any child specialist in [Bangladesh Specialized Hospital](child) 
+    - will you a suggest me child specialist in [Bangladesh Specialized Hospital](child) 
+    - child doctor in [Bangladesh Specialized Hospital](child) 
+    - good child doctor in [Bangladesh Specialized Hospital](child) 
+    - Give me a name of child doctor in [Bangladesh Specialized Hospital](child) 
+    - child doctor in [Bangladesh Specialized Hospital](child) 
+    - will you a suggest me child doctor in [Bangladesh Specialized Hospital](child) 
+    - Give me a name of child doctor in [Bangladesh Specialized Hospital](child) 
+    - good child doctor in [Bangladesh Specialized Hospital](child) 
+    - child doctor in [Bangladesh Specialized Hospital](child) 
+
+
+
+
+
+    - Is there any child specialist in [Labaid Hospital](child)  
+    - will you a suggest me child specialist in [Labaid Hospital](child) 
+    - child doctor in [Labaid Hospital](child) 
+    - good child doctor in [Labaid Hospital](child) 
+    - Give me a name of child doctor in [Labaid Hospital](child) 
+    - child doctor in [Labaid Hospital](child) 
+    - will you a suggest me child doctor in [Labaid Hospital](child)  
+    - Give me a name of child doctor in [Labaid Hospital](child)  
+    - good child doctor in [Labaid Hospital](child)  
+    - child doctor in [Labaid Hospital](child) 
+
+
+
+
+    - Is there any child specialist in [Square Hospital](child) 
+    - will you a suggest me child specialist in [Square Hospital](child) 
+    - child doctor in [Square Hospital](child) 
+    - good child doctor in [Square Hospital](child) 
+    - Give me a name of child doctor in [Square Hospital](child) 
+    - child doctor in [Square Hospital](child) 
+    - will you a suggest me child doctor in [Square Hospital](child) 
+    - Give me a name of child doctor in [Square Hospital](child) 
+    - good child doctor in [Square Hospital](child) 
+    - child doctor in [Square Hospital](child) 
+
+
+
+
+    - Is there any child specialist in [Ibn Sina](child) 
+    - will you a suggest me child specialist in [Ibn Sina](child) 
+    - child doctor in [Ibn Sina](child) 
+    - good child doctor in [Ibn Sina](child) 
+    - Give me a name of child doctor in [Ibn Sina](child) 
+    - child doctor in [Ibn Sina](child) 
+    - will you a suggest me child doctor in [Ibn Sina](child) 
+    - Give me a name of child doctor in [Ibn Sina](child) 
+    - good child doctor in [Ibn Sina](child) 
+    - child doctor in [Ibn Sina](child) 
+
+
+
+
+
+    - Is there any child specialist in [Medinova Hospital](child) 
+    - will you a suggest me child specialist in [Medinova Hospital](child) 
+    - child doctor in [Medinova Hospital](child) 
+    - good child doctor in [Medinova Hospital](child) 
+    - Give me a name of child doctor in [Medinova Hospital](child) 
+    - child doctor in [Medinova Hospital](child) 
+    - will you a suggest me child doctor in [Medinova Hospital](child) 
+    - Give me a name of child doctor in [Medinova Hospital](child) 
+    - good child doctor in [Medinova Hospital](child) 
+    - child doctor in [Medinova Hospital](child) 
+
+
+
+    - Is there any child specialist in [United Hospital](child) 
+    - will you a suggest me child specialist in [United Hospital](child) 
+    - child doctor in [United Hospital](child) 
+    - good child doctor in [United Hospital](child) 
+    - Give me a name of child doctor in [United Hospital](child) 
+    - child doctor in [United Hospital](child) 
+    - will you a suggest me child doctor in [United Hospital](child) 
+    - Give me a name of child doctor in [United Hospital](child) 
+    - good child doctor in [United Hospital](child)
+    - child doctor in [United Hospital](child) 

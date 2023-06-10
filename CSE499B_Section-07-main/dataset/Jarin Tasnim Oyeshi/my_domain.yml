@@ -1,0 +1,66 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - get_introduction
+  - hospital_search_by_area
+  - hospital_search_by_disease
+  - Hospital_address
+  - doctors_search_by_name
+  - doctors_search_by_cardiac
+  - doctors_search_by_child
+  - doctors_search_by_cancer
+
+
+actions:
+  - action_hello_world
+  - action_hospital_search_by_area
+  - action_hospital_search_by_disease
+  - action_Hospital_address
+  - action_doctors_search_by_name
+  - action_doctors_search_by_cardiac
+  - action_doctors_search_by_child
+  - action_doctors_search_by_cancer
+
+entities:
+  - area
+  - problem_type
+  - hospital_name
+  - Doctor_name
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_introduction:
+  - text: " I am Medihelper"
+
+  utter_hospital_search_by_area:
+  - text: "Here is your result"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
